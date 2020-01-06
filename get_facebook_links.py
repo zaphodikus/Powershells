@@ -14,7 +14,7 @@ pwd = input("Facebook password: ")
 linkbase = '\\\\hpnas\Disk0\\Church\\Sermons\\fblinks\\'
 cred = (name, pwd)
 
-for post in get_posts('Cottenham-Baptist-Church-162430413816133', pages=200, credentials=cred):
+for post in get_posts('Cottenham-Baptist-Church-162430413816133', pages=10, credentials=cred): # only grab the last 10 posts each time - to do a complete rebuild set this to ~200 pages
 	try:
 		print("Post date : " + post['time'].strftime("%Y-%m-%d"))
 		#print("img : "  + post['image'])

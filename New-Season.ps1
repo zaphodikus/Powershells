@@ -32,7 +32,8 @@ Param([parameter(Mandatory=$false)][string]$Folder = '\\hpnas\Disk0\Church\Sermo
     } #end foreach $file 
 }
 
-#$mp3Files = Get-FileMetaData
+# this step takes about 5 minutes
+#$mp3Files = Get-MP3MetaData '\\hpnas\Disk0\Church\Sermons'
 $url_base = 'http://www.cottenhambaptist.org.uk/Sermons/'
 $url_home = 'http://www.cottenhambaptist.org.uk'
 $path = "feed.rss"
@@ -52,7 +53,7 @@ param(
 	$ns = $null
   if (($elementname -split ':').count -gt 1) {
 	$p = ($elementname -split ':')[0]
-	write-host "[$p] $elementname = $value "
+	# write-host "[$p] $elementname = $value "
 	$ns = $root.GetNamespaceOfPrefix($p)
 	} 
   $thisNode = $doc.CreateNode("element", $elementName, $ns)
@@ -105,16 +106,19 @@ $rssChannel = New-Channel $doc $root
 Write-host "Indexing facebook links..."
 $links = ls \\hpnas\Disk0\Church\Sermons\fblinks | select name
 $linkdates = $links | %{ [Datetime]($_.Name -split '\.')[0]}
+Write-host ("  checking total {0} posts for matches" -f $linkdates.count)
 # find all facebook posts within last 7 days of this mp3 file
 $l = foreach ($emp3 in $(ls \\hpnas\Disk0\Church\Sermons\*.mp3)) { 
    try {$mp3date = [DateTime]($emp3.name -split '\.')[0] ; $postsMatched = @($linkDates | ?{ $_ -lt $mp3Date -and $_ -gt ($mp3Date - (New-timespan -days 7))})  ;
 	  # if any found, grab the last on in the week and use it's link
-      if ($postsMatched.count -gt 0) { New-object -typename psobject -prop @{mp3=$emp3.name; lnk= $postsMatched[-1].ToString('yyyy-MM-dd') + '.lnk'}}
+      if ($postsMatched.count -gt 0) { New-object -typename psobject -prop @{mp3=$emp3.name; lnk= $postsMatched[-1].ToString('yyyy-MM-dd') + '.lnk'}};
+	  write-host -nonewline "."
    } catch {}
  }
 
 # build a dictionary keyed on the mp3 files
 $fblinks = $l | %{ $o= new-object -typename psobject; add-member -inputobject $o -membertype NoteProperty -name 'file' -value $_.mp3; 
+	write-host -nonewline "f";
 	gc (join-path '\\hpnas\Disk0\Church\Sermons\fblinks' $_.lnk)| %{ 
 		if ($_ -like 'url=*') {
 			add-member -inputobject $o -membertype noteProperty -Name 'url' -value (($_ -split '=')[1..9] -join '=')  
@@ -124,13 +128,15 @@ $fblinks = $l | %{ $o= new-object -typename psobject; add-member -inputobject $o
 		} 
 	$o
 }
-Write-host "Found {0} links" -f $bflinks.count
+Write-host ("Found {0} links" -f $fblinks.count)
 
 # add mp3 item files
 $files = $mp3files | ?{$_.name -like '2019*'}
 foreach ($item in $files) {
+	Write-host -nonewline "m"
 	$thisItem = createRssElement $doc -elementName 'item' -value '' -parent $rssChannel
 	$date = ($item.Name -split '\.')[0]
+	$date = $date.TrimEnd([char[]](58..254)-match'\w')
 	try {
 		$date = [Datetime]( $date )
 	} catch {}
@@ -146,13 +152,10 @@ foreach ($item in $files) {
 	$null = createRssElement $doc -elementName 'link' -value $item_url -parent $thisItem
 	
 	$null = createRssElement $doc -elementName 'description' -value $title -parent $thisItem
-	$null = createRssElement $doc -elementName 'guid' -value $item.FullName -parent $thisItem
+	$null = createRssElement $doc -elementName 'guid' -value $item.Name -parent $thisItem
 	$enclosure = createRssElement $doc -elementName 'enclosure' -value '' -parent $thisItem
 	$null = createRssElement $doc -elementName 'category' -value "Podcasts" -parent $thisItem
-	$date = get-date
-	try {
-		$date = [Datetime](($item.Name -split '\.')[0] )
-	} catch {}
+
 	$null = createRssElement $doc -elementName 'pubDate' -value $date.ToString('u') -parent $thisItem
 	$null = createRssElement $doc -elementName 'itunes:explicit' -value 'false' -parent $thisItem
 
@@ -162,6 +165,12 @@ foreach ($item in $files) {
 	$null = $enclosure.SetAttribute('url',"$($url_base)$($item.Name)")
 	$null = $enclosure.SetAttribute('length',"$($item.Length)")
 	$null = $enclosure.SetAttribute('type','audio/mpeg')
+	try {
+		if ($fblinks | where file -eq $item.name) {
+			$null = createRssElement $doc -elementName 'itunes:image' -value ($fblinks | where file -eq $item.name).img -parent $thisItem
+			write-host -nonewline '@'
+		}
+	} catch {}
 }
 
 $root.AppendChild($rssChannel) | Out-Null

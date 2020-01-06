@@ -1,0 +1,22 @@
+A good name : Cottenham Baptist Pulpit Message (CBPM)
+3000 pixels by 3000 pixels : cover art
+Blurb: 
+Get comfortable and listen to Kate Lees our minister at a tiny community church. We record most Sundays, but sometimes the equipment beats us, or we are just having more community spirit than we should. Kate and our leadership team do change it up a lot. This podcast will be broken into seasons or years as a separate feed to make it easier to manage. The first season are all local stand-in preachers, but in (fill year here) Kate left her big church in London to serve us, along with her husband Simon and 2 boys.
+
+=====
+https://podba.se/validate/
+http://www.cottenhambaptist.org.uk/Sermons/feed.rss
+
+https://addictpodcast.com/submit
+
+A few scripts were written -all very hacky, need to strip out any passwords.
+Ned toadd a bit of support for uploading per episode artwork - basically if a .jpeg file called <YYYY-MM-DD>.jpg exists, for a .MP£ of same name. 
+Then uploaded it into /images as well, and also update the image path for that episode to point to that image instead.
+
+=========
+Debian Raspbian notes:
+open terminal Ctlr+Alt+T
+
+# edit the display settings
+sudo arandr 
+

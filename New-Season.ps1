@@ -2,45 +2,14 @@
 # sources : https://gallery.technet.microsoft.com/scriptcenter/Capturing-and-using-Meta-4f81b7da
 #           https://www.petri.com/creating-custom-xml-net-powershell
 #           https://gist.github.com/arebee/a7a77044c77443effaeddbe3730af4ad
+[Cmdletbinding()]
 $Erroractionpreference = 'Stop'
 
-Function Get-FileMetaData
-{
-Param([parameter(Mandatory=$false)][string]$Folder = '\\hpnas\Disk0\Church\Sermons', 
-      [parameter(Mandatory=$false)]$extension = ('.mp3'))
+$url_base = (gc '_url_Sermons.txt') # 'http://www.cottenhambaptist.org.uk/Sermons/'
+$url_home = (gc '_url_homepage.txt') # 'http://www.cottenhambaptist.org.uk'
+$path = "season2019.rss"
 
-	$a = 0 
-    $objShell = New-Object -ComObject Shell.Application 
-    $objFolder = $objShell.namespace($Folder) 
 
-	$files = $objFolder.items() | ?{"." + ($_.name -split '\.')[1] -in $extension}
-    foreach ($File in $files) # objFolder.items()) 
-    {  
-      $FileMetaData = New-Object PSOBJECT 
-      for ($a ; $a  -le 266; $a++) 
-      {  
-         if($objFolder.getDetailsOf($File, $a)) 
-         { 
-            $hash += @{$($objFolder.getDetailsOf($objFolder.items, $a))  = 
-                   $($objFolder.getDetailsOf($File, $a)) } 
-            $FileMetaData | Add-Member $hash 
-            $hash.clear()  
-         } #end if 
-      } #end for  
-      $a=0 
-      $FileMetaData 
-    } #end foreach $file 
-}
-
-# this step takes about 5 minutes
-#$mp3Files = Get-MP3MetaData '\\hpnas\Disk0\Church\Sermons'
-$url_base = 'http://www.cottenhambaptist.org.uk/Sermons/'
-$url_home = 'http://www.cottenhambaptist.org.uk'
-$path = "feed.rss"
-
-[xml]$Doc = New-Object System.Xml.XmlDocument
-$dec = $Doc.CreateXmlDeclaration("1.0","UTF-8",$null)
-$Doc.AppendChild($dec) | out-null
 
 function createRssElement{
 param(
@@ -51,15 +20,15 @@ param(
 )
 
 	$ns = $null
-  if (($elementname -split ':').count -gt 1) {
-	$p = ($elementname -split ':')[0]
-	# write-host "[$p] $elementname = $value "
-	$ns = $root.GetNamespaceOfPrefix($p)
+	if (($elementname -split ':').count -gt 1) {
+		$p = ($elementname -split ':')[0]
+		Write-Debug "[$p] $elementname = $value "
+		$ns = $root.GetNamespaceOfPrefix($p)
 	} 
-  $thisNode = $doc.CreateNode("element", $elementName, $ns)
-  $thisNode.InnerText = $value
-  $null = $parent.AppendChild($thisNode)
-  return $thisNode
+	$thisNode = $doc.CreateNode("element", $elementName, $ns)
+	$thisNode.InnerText = $value
+	$null = $parent.AppendChild($thisNode)
+	return $thisNode
 }
 
 Function New-Channel
@@ -100,55 +69,63 @@ Function New-Root($doc) {
 	write-output $root
 }
 
-$root = New-Root($doc)
-	
-$rssChannel = New-Channel $doc $root
-Write-host "Indexing facebook links..."
-$links = ls \\hpnas\Disk0\Church\Sermons\fblinks | select name
-$linkdates = $links | %{ [Datetime]($_.Name -split '\.')[0]}
-Write-host ("  checking total {0} posts for matches" -f $linkdates.count)
-# find all facebook posts within last 7 days of this mp3 file
-$l = foreach ($emp3 in $(ls \\hpnas\Disk0\Church\Sermons\*.mp3)) { 
-   try {$mp3date = [DateTime]($emp3.name -split '\.')[0] ; $postsMatched = @($linkDates | ?{ $_ -lt $mp3Date -and $_ -gt ($mp3Date - (New-timespan -days 7))})  ;
-	  # if any found, grab the last on in the week and use it's link
-      if ($postsMatched.count -gt 0) { New-object -typename psobject -prop @{mp3=$emp3.name; lnk= $postsMatched[-1].ToString('yyyy-MM-dd') + '.lnk'}};
-	  write-host -nonewline "."
-   } catch {}
- }
+Function Get-FacebookPosts($savedlinks_path) # '\\hpnas\Disk0\Church\Sermons\fblinks'
+{
 
-# build a dictionary keyed on the mp3 files
-$fblinks = $l | %{ $o= new-object -typename psobject; add-member -inputobject $o -membertype NoteProperty -name 'file' -value $_.mp3; 
-	write-host -nonewline "f";
-	gc (join-path '\\hpnas\Disk0\Church\Sermons\fblinks' $_.lnk)| %{ 
-		if ($_ -like 'url=*') {
-			add-member -inputobject $o -membertype noteProperty -Name 'url' -value (($_ -split '=')[1..9] -join '=')  
-		} 
-		if ($_ -like 'img=*') { 
-			add-member -inputobject $o -membertype noteProperty -Name 'img' -value (($_ -split '=')[1..9] -join '=')} 
-		} 
-	$o
+	Write-host "Indexing facebook links..."
+	$links = ls $savedlinks_path | select name
+	$linkdates = $links | %{ [Datetime]($_.Name -split '\.')[0]}
+	Write-host ("  checking total {0} posts for matches" -f $linkdates.count)
+	# find all facebook posts within last 7 days of this mp3 file
+	$read_links = foreach ($emp3 in $(ls '\\hpnas\Disk0\Church\Sermons\*.mp3')) { 
+	   try {$mp3date = [DateTime]($emp3.name -split '\.')[0] ; $postsMatched = @($linkDates | ?{ $_ -le $mp3Date -and $_ -gt ($mp3Date - (New-timespan -days 7))})  ;
+		  # if any found, grab the last on in the week and use it's link
+		  if ($postsMatched.count -gt 0) { New-object -typename psobject -prop @{mp3=$emp3.name; lnk= $postsMatched[-1].ToString('yyyy-MM-dd') + '.lnk'}};
+		  write-host -nonewline "."
+	   } catch {}
+	}
+
+	# build a dictionary keyed on the mp3 files
+	$fblinks = $read_links | %{ $o= new-object -typename psobject; add-member -inputobject $o -membertype NoteProperty -name 'file' -value $_.mp3; 
+		write-host -nonewline "f";
+		gc (join-path '\\hpnas\Disk0\Church\Sermons\fblinks' $_.lnk)| %{ 
+			if ($_ -like 'url=*') {
+				add-member -inputobject $o -membertype noteProperty -Name 'url' -value (($_ -split '=')[1..9] -join '=')  
+			} 
+			if ($_ -like 'img=*') { 
+				add-member -inputobject $o -membertype noteProperty -Name 'img' -value (($_ -split '=')[1..9] -join '=')} 
+			} 
+		$o
+	}
+	Write-host ("Found {0} related Facebook posts" -f $fblinks.count)
+	$fblinks
 }
-Write-host ("Found {0} links" -f $fblinks.count)
 
-# add mp3 item files
-$files = $mp3files | ?{$_.name -like '2019*'}
-foreach ($item in $files) {
+function Add-EpisodeItem {
+param([Alias("document")]$doc, 
+	[Alias("channel")]$rssChannel, 
+	$item, 
+	$facebookPost) 
+
 	Write-host -nonewline "m"
 	$thisItem = createRssElement $doc -elementName 'item' -value '' -parent $rssChannel
 	$date = ($item.Name -split '\.')[0]
-	$date = $date.TrimEnd([char[]](58..254)-match'\w')
+	$date = $date.TrimEnd([char[]](58..254)-match'\w') # strip all trailing non-numerics
 	try {
 		$date = [Datetime]( $date )
-	} catch {}
+	} catch {
+		Write-Warning "Error determining date for podcast item"	}
 	$title = $item.Name
 	try {
 		$title = $date.ToString("ddd MMMM d") + " preaching: $($item.'Contributing artists')"
 		$null = createRssElement $doc -elementName 'itunes:author' -value $item.'Contributing artists' -parent $thisItem
-	} catch {}
+	} catch {
+		Write-Warning "Error creating podcast entry date for item"
+	}
 	$null = createRssElement $doc -elementName 'title' -value $title -parent $thisItem
 	# optional item url
 	$item_url = $url_home
-	if ($fblinks | where file -eq $item.name) {$item_url = ($fblinks | where file -eq $item.name).url}
+	if ($facebookPost) {$item_url = $facebookPost.url}
 	$null = createRssElement $doc -elementName 'link' -value $item_url -parent $thisItem
 	
 	$null = createRssElement $doc -elementName 'description' -value $title -parent $thisItem
@@ -166,13 +143,44 @@ foreach ($item in $files) {
 	$null = $enclosure.SetAttribute('length',"$($item.Length)")
 	$null = $enclosure.SetAttribute('type','audio/mpeg')
 	try {
-		if ($fblinks | where file -eq $item.name) {
-			$null = createRssElement $doc -elementName 'itunes:image' -value ($fblinks | where file -eq $item.name).img -parent $thisItem
+		if ($facebookPost) {
+			$null = createRssElement $doc -elementName 'itunes:image' -value $facebookPost.img -parent $thisItem
 			write-host -nonewline '@'
 		}
-	} catch {}
+	} catch {
+		Write-Warning "Error creating podcast entry image for item"
+	}
 }
 
+#########################################################
+# this step takes about 5 minutes
+if (-not (test-path '_MP3MetaData.xml')) {
+	Write-Host "Gathering mp3 local file Metadata"
+	. .\Get-MP3MetaData.ps1
+	$mp3Files = Get-MP3MetaData '\\hpnas\Disk0\Church\Sermons'
+	$mp3Files | Export-cliXml -depth 3 -Path '_MP3MetaData.xml'
+} else {
+	$mp3Files = Import-cliXml -Path '_MP3MetaData.xml'
+}
+Write-Host "Metadata loaded."
+
+[xml]$Doc = New-Object System.Xml.XmlDocument
+$dec = $Doc.CreateXmlDeclaration("1.0","UTF-8",$null)
+$Doc.AppendChild($dec) | out-null
+
+$root = New-Root($doc)
+	
+$rssChannel = New-Channel $doc $root
+
+$fblinks = Get-FacebookPosts '\\hpnas\Disk0\Church\Sermons\fblinks'
+
+# add mp3 item files
+$files = $mp3files | ?{$_.name -like '2019*'}
+foreach ($item in $files) {
+	Add-EpisodeItem  -document $doc -channel $rssChannel -item $item -facebookPost ($fblinks | where file -eq $item.name)
+	
+}
+write-host "Added {0} episodes" -f $files.count
 $root.AppendChild($rssChannel) | Out-Null
 $doc.AppendChild($root) | Out-Null
 Write-Host "Saving the XML document to $Path" -ForegroundColor Green

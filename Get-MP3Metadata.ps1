@@ -25,9 +25,9 @@
                 $ObjFile = $ObjDir.parsename($File.Name)
                 $MetaData = @{}
                 $MP3 = ($ObjDir.Items()|?{$_.path -like "*.mp3" -or $_.path -like "*.mp4"})
-                $PropertArray = 0,1,2,12,13,14,15,16,17,18,19,20,21,22,27,28,36,220,223
+                $PropertyArray = 0,1,2,12,13,14,15,16,17,18,19,20,21,22,27,28,36,220,223
             
-                Foreach($item in $PropertArray)
+                Foreach($item in $PropertyArray)
                 { 
                     If($ObjDir.GetDetailsOf($ObjFile, $item)) #To avoid empty values
                     {

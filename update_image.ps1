@@ -1,7 +1,7 @@
-Param([parameter(mandatory=$false)][string]$password = (gc 'password.txt'), 
-	  $ftpServer ="ftp.streamline.net",
-	  $ftpSite = "cottenhambaptist.org.uk",
-	  $siteFolder = "htdocs/images",
+Param([parameter(mandatory=$false)][string]$password = (gc '_password.txt'), 
+	  $ftpServer = (gc '_ftpsserver.txt'),
+	  $ftpSite = (gc "_ftpsite.txt"),
+	  $siteFolder = (cg '_ftp_imagespath.txt'),
 	  [string]$uploadSermonFile = ""
 	  )
 $erroractionpreference ='stop'

@@ -3,13 +3,13 @@
 #           https://www.petri.com/creating-custom-xml-net-powershell
 #           https://gist.github.com/arebee/a7a77044c77443effaeddbe3730af4ad
 [Cmdletbinding()]
+Param($season_year = "2019")
 $Erroractionpreference = 'Stop'
 
 $url_base = (gc '_url_Sermons.txt') # 'http://www.cottenhambaptist.org.uk/Sermons/'
 $url_home = (gc '_url_homepage.txt') # 'http://www.cottenhambaptist.org.uk'
-$path = "season2019.rss"
-
-
+$local_sermons_path = '\\hpnas\Disk0\Church\Sermons'
+$path = "season$($season_year).rss"	# also will be used to specify coverart.jpg as  coverart<season_year>.jpg
 
 function createRssElement{
 param(
@@ -26,7 +26,9 @@ param(
 		$ns = $root.GetNamespaceOfPrefix($p)
 	} 
 	$thisNode = $doc.CreateNode("element", $elementName, $ns)
-	$thisNode.InnerText = $value
+	if ($value -ne "") {
+		$thisNode.InnerText = $value
+	}
 	$null = $parent.AppendChild($thisNode)
 	return $thisNode
 }
@@ -36,22 +38,45 @@ Function New-Channel
 param($doc, $root) 
 
 	$rssChannel = $doc.CreateNode("element", 'channel', $null)
-	$null = createRssElement $doc -elementName 'title' -value 'Cottenham Baptist Church 2019 Sermons' -parent $rssChannel
+	$null = createRssElement $doc -elementName 'title' -value "Cottenham Baptist Church $($season_year) Sermons" -parent $rssChannel
 	$null = createRssElement $doc -elementName 'description' -value @"
-Get comfortable and listen to Kate Lees our minister at a tiny community church. We record most Sundays, but sometimes the equipment beats us, or we are just having more community spirit than we should. Kate and our leadership team do change it up a lot. This podcast will be broken into seasons or years as a separate feed to make it easier to manage. The first season are all local stand-in preachers, but in (fill year here) Kate left her big church in London to serve us, along with her husband Simon and 2 boys.
+<![CDATA[Get comfortable and listen to Kate Lees our minister at a tiny community church. <br/>
+We record most Sundays, but sometimes the equipment beats us, or we are just having more community spirit than we should. Kate and our leadership team do change it up a lot. This podcast will be broken into seasons or years as a separate feed to make it easier to manage. The first season are all local stand-in preachers, but in (fill year here) Kate left her big church in London to serve us, along with her husband Simon and 2 boys.<br/>
+Other seasons: <a href="http://www.cottenhambaptist.org.uk/Sermons/season2019.rss">2020 Sermons</a><br/>
+<a href="http://www.cottenhambaptist.org.uk/Sermons/season2019.rss">2019 Sermons</a><br/>
+<a href="http://www.cottenhambaptist.org.uk/Sermons/season2018.rss">2018 Sermons</a><br/>
+<a href="http://www.cottenhambaptist.org.uk/Sermons/season2017.rss">2017 Sermons</a><br/>
+<a href="http://www.cottenhambaptist.org.uk/Sermons/season2016.rss">2016 Sermons</a><br/>
+<a href="http://www.cottenhambaptist.org.uk/Sermons/season2015.rss">2015 Sermons</a><br/>
+<a href="http://www.cottenhambaptist.org.uk/Sermons/season2014.rss">2014 Sermons</a><br/>
+<a href="http://www.cottenhambaptist.org.uk/Sermons/season2013.rss">2013 Sermons</a><br/>
+]]>
 "@ -parent $rssChannel
 	$null = createRssElement $doc -elementName 'link' -value $url_home -parent $rssChannel
 	$null = createRssElement $doc -elementName 'language' -value 'en-UK' -parent $rssChannel
-	$null = createRssElement $doc -elementName 'copyright' -value 'entity' -parent $rssChannel
+	$null = createRssElement $doc -elementName 'copyright' -value '&#169; Cottenham Baptist Church' -parent $rssChannel
 	$null = createRssElement $doc -elementName 'lastBuildDate' -value $([datetime]::Now.ToString('s')) -parent $rssChannel
-	$null = createRssElement $doc -elementName 'pubDate' -value $([datetime]::Now.ToString('s')) -parent $rssChannel
-	$null = createRssElement $doc -elementName 'itunes:image' -value "$($url_home)/images/coverart.jpg" -parent $rssChannel
+	$null = createRssElement $doc -elementName 'pubDate' -value $([datetime]::Now.ToString("ddd, dd MMM yyyy HH:MM:ss G\MT")) -parent $rssChannel
+	# image
+	$null = createRssElement $doc -elementName 'itunes:image' -value "" -parent $rssChannel
+	$image = $rssChannel['itunes:image']
+	$image.SetAttribute("href", "$($url_home)/images/coverart$($season_year).jpg")
 	$null = createRssElement $doc -elementName 'itunes:author' -value "Cottenham Baptist Church" -parent $rssChannel
+	$null = createRssElement $doc -elementName 'itunes:explicit' -value 'false' -parent $rssChannel
+	# owner node
+	$null = createRssElement $doc -elementName 'itunes:owner' -value "" -parent $rssChannel
+	$owner = $rssChannel['itunes:owner']
+	$null = createRssElement $doc -elementName 'itunes:name' -value "Cottenham Baptist Church" -parent $owner
+	$null = createRssElement $doc -elementName 'itunes:email' -value "zaphodikus@hotmail.com" -parent $owner
 	
 	# category subnode
 	$null = createRssElement $doc -elementName 'itunes:category' -value "" -parent $rssChannel
 	$cat = $rssChannel['itunes:category']
-	$cat.SetAttribute("text", "Religion & Spirituality") # christianity
+	$cat.SetAttribute("text", "Religion & Spirituality") 
+	# add subcategory christianity
+	$null = createRssElement $doc -elementName 'itunes:category' -value "" -parent $cat
+	$sub = $cat['itunes:category']
+	$sub.SetAttribute("text", "Christianity") 
 	$rssChannel
 } # new-channel
 
@@ -77,10 +102,10 @@ Function Get-FacebookPosts($savedlinks_path) # '\\hpnas\Disk0\Church\Sermons\fbl
 	$linkdates = $links | %{ [Datetime]($_.Name -split '\.')[0]}
 	Write-host ("  checking total {0} posts for matches" -f $linkdates.count)
 	# find all facebook posts within last 7 days of this mp3 file
-	$read_links = foreach ($emp3 in $(ls '\\hpnas\Disk0\Church\Sermons\*.mp3')) { 
+	$read_links = foreach ($emp3 in $(ls "$($local_sermons_path)\*.mp3")) { 
 	   try {$mp3date = [DateTime]($emp3.name -split '\.')[0] ; $postsMatched = @($linkDates | ?{ $_ -le $mp3Date -and $_ -gt ($mp3Date - (New-timespan -days 7))})  ;
 		  # if any found, grab the last on in the week and use it's link
-		  if ($postsMatched.count -gt 0) { New-object -typename psobject -prop @{mp3=$emp3.name; lnk= $postsMatched[-1].ToString('yyyy-MM-dd') + '.lnk'}};
+		  if ($postsMatched.count -gt 0) { New-object -typename psobject -prop @{mp3=$emp3.name; lnk= $postsMatched[-1].ToString('yyyy-MM-dd') + '.fb'}};
 		  write-host -nonewline "."
 	   } catch {}
 	}
@@ -88,7 +113,7 @@ Function Get-FacebookPosts($savedlinks_path) # '\\hpnas\Disk0\Church\Sermons\fbl
 	# build a dictionary keyed on the mp3 files
 	$fblinks = $read_links | %{ $o= new-object -typename psobject; add-member -inputobject $o -membertype NoteProperty -name 'file' -value $_.mp3; 
 		write-host -nonewline "f";
-		gc (join-path '\\hpnas\Disk0\Church\Sermons\fblinks' $_.lnk)| %{ 
+		gc (join-path $savedlinks_path $_.lnk)| %{ # todo: load this from the metadata file instead
 			if ($_ -like 'url=*') {
 				add-member -inputobject $o -membertype noteProperty -Name 'url' -value (($_ -split '=')[1..9] -join '=')  
 			} 
@@ -102,6 +127,7 @@ Function Get-FacebookPosts($savedlinks_path) # '\\hpnas\Disk0\Church\Sermons\fbl
 }
 
 function Add-EpisodeItem {
+[CmdletBinding()]
 param([Alias("document")]$doc, 
 	[Alias("channel")]$rssChannel, 
 	$item, 
@@ -110,11 +136,16 @@ param([Alias("document")]$doc,
 	Write-host -nonewline "m"
 	$thisItem = createRssElement $doc -elementName 'item' -value '' -parent $rssChannel
 	$date = ($item.Name -split '\.')[0]
+	Write-verbose "add episode: $($date)"
 	$date = $date.TrimEnd([char[]](58..254)-match'\w') # strip all trailing non-numerics
+	$date = $date.TrimEnd('-')
+	$date = $date.replace('_', '-')
+	$date = $date[0..9] -join ''
 	try {
 		$date = [Datetime]( $date )
 	} catch {
-		Write-Warning "Error determining date for podcast item"	}
+		Write-Warning "Error determining date for podcast item: $date"	
+	}
 	$title = $item.Name
 	try {
 		$title = $date.ToString("ddd MMMM d") + " preaching: $($item.'Contributing artists')"
@@ -127,20 +158,23 @@ param([Alias("document")]$doc,
 	$item_url = $url_home
 	if ($facebookPost) {$item_url = $facebookPost.url}
 	$null = createRssElement $doc -elementName 'link' -value $item_url -parent $thisItem
-	
-	$null = createRssElement $doc -elementName 'description' -value $title -parent $thisItem
+	$description = $title + "\n"
+	if ($facebookPost -and $facebookPost.PSobject.Properties.Name -contains "text") { description += $facebookPost.text}
+	$null = createRssElement $doc -elementName 'description' -value $description -parent $thisItem
 	$null = createRssElement $doc -elementName 'guid' -value $item.Name -parent $thisItem
 	$enclosure = createRssElement $doc -elementName 'enclosure' -value '' -parent $thisItem
 	$null = createRssElement $doc -elementName 'category' -value "Podcasts" -parent $thisItem
 
-	$null = createRssElement $doc -elementName 'pubDate' -value $date.ToString('u') -parent $thisItem
+	$null = createRssElement $doc -elementName 'pubDate' -value $date.ToString("ddd, dd MMM yyyy HH:MM:ss G\MT") -parent $thisItem
 	$null = createRssElement $doc -elementName 'itunes:explicit' -value 'false' -parent $thisItem
+	$null = createRssElement $doc -elementName 'itunes:duration' -value $item.Length -parent $thisItem
 
 	# The URL is by default the file path.
 	# You may want something like:
 	# $null = $enclosure.SetAttribute('url',"http://example.com/pathToMp3s/$($item.Name)")
 	$null = $enclosure.SetAttribute('url',"$($url_base)$($item.Name)")
-	$null = $enclosure.SetAttribute('length',"$($item.Length)")
+	$len = (get-item (join-path $local_sermons_path $item.Name)).length
+	$null = $enclosure.SetAttribute('length',"$( $len )")
 	$null = $enclosure.SetAttribute('type','audio/mpeg')
 	try {
 		if ($facebookPost) {
@@ -157,7 +191,7 @@ param([Alias("document")]$doc,
 if (-not (test-path '_MP3MetaData.xml')) {
 	Write-Host "Gathering mp3 local file Metadata"
 	. .\Get-MP3MetaData.ps1
-	$mp3Files = Get-MP3MetaData '\\hpnas\Disk0\Church\Sermons'
+	$mp3Files = Get-MP3MetaData $local_sermons_path
 	$mp3Files | Export-cliXml -depth 3 -Path '_MP3MetaData.xml'
 } else {
 	$mp3Files = Import-cliXml -Path '_MP3MetaData.xml'
@@ -172,15 +206,15 @@ $root = New-Root($doc)
 	
 $rssChannel = New-Channel $doc $root
 
-$fblinks = Get-FacebookPosts '\\hpnas\Disk0\Church\Sermons\fblinks'
+$fblinks = Get-FacebookPosts -localmp3 $local_sermons_path -savedlinks_path (join-path $local_sermons_path 'fblinks')
 
 # add mp3 item files
-$files = $mp3files | ?{$_.name -like '2019*'}
+$files = $mp3files | ?{$_.name -like "$($season_year)*"}
 foreach ($item in $files) {
 	Add-EpisodeItem  -document $doc -channel $rssChannel -item $item -facebookPost ($fblinks | where file -eq $item.name)
 	
 }
-write-host "Added {0} episodes" -f $files.count
+write-host ("Added {0} episodes" -f $files.count)
 $root.AppendChild($rssChannel) | Out-Null
 $doc.AppendChild($root) | Out-Null
 Write-Host "Saving the XML document to $Path" -ForegroundColor Green

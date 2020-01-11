@@ -3,16 +3,48 @@ A good name : Cottenham Baptist Pulpit Message (CBPM)
 Blurb: 
 Get comfortable and listen to Kate Lees our minister at a tiny community church. We record most Sundays, but sometimes the equipment beats us, or we are just having more community spirit than we should. Kate and our leadership team do change it up a lot. This podcast will be broken into seasons or years as a separate feed to make it easier to manage. The first season are all local stand-in preachers, but in (fill year here) Kate left her big church in London to serve us, along with her husband Simon and 2 boys.
 
-=====
+Apple rss spec docs
+=========
 https://help.apple.com/itc/podcasts_connect/#/itcb54353390
-https://podba.se/validate/
-http://www.cottenhambaptist.org.uk/Sermons/feed.rss
 
-https://addictpodcast.com/submit
+Validate feed using:
+=========
+https://podba.se/validate/
+https://castfeedvalidator.com/?url=+
+
+submit rss file
+=========
+https://podcastsconnect.apple.com/                          <= to submit a feed use your apple account 3-10 days?
+https://addictpodcast.com/submit							<= to submit a feed 24 hours
+https://play.google.com/music/podcasts/portal/          	<= updated, their old platform got canned
+https://podcasters.spotify.com/submit					    <= requires an email verification and some manual metadata capture
+https://partners.stitcher.com/dashboard						<= uses the author email field, set up an account
+https://tunein.com/podcasters/								<= an email driven submission frontend
+todo:
+https://blubrry.com/addpodcast.php
+
+Feeds
+=========
+http://www.cottenhambaptist.org.uk/Sermons/feed.rss  <= My testing only feed
+
+http://www.cottenhambaptist.org.uk/Sermons/season2013.rss  (includes 2012)
+http://www.cottenhambaptist.org.uk/Sermons/season2014.rss
+http://www.cottenhambaptist.org.uk/Sermons/season2015.rss
+
+http://www.cottenhambaptist.org.uk/Sermons/season2016.rss
+http://www.cottenhambaptist.org.uk/Sermons/season2017.rss
+http://www.cottenhambaptist.org.uk/Sermons/season2018.rss
+http://www.cottenhambaptist.org.uk/Sermons/season2019.rss
+
+
+==========================
+https://podcastsconnect.apple.com/my-podcasts
 
 A few scripts were written -all very hacky, need to strip out any passwords.
-Ned toadd a bit of support for uploading per episode artwork - basically if a .jpeg file called <YYYY-MM-DD>.jpg exists, for a .MP£ of same name. 
+Need to add a bit of support for uploading per episode artwork - basically if a .jpeg file called <YYYY-MM-DD>.jpg exists, for a .MP3 of same name. File must be <500Mb jpeg at 80% quality seemt to work well in 2000x2000
 Then uploaded it into /images as well, and also update the image path for that episode to point to that image instead.
+
+"Podcasts are available to Google Play Music listeners in the United States and Canada."
 
 =========
 Debian Raspbian notes:

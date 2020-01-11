@@ -1,0 +1,7 @@
+# password and configuration files
+_*.txt
+*.pdn
+VENV/
+response.txt
+links.zip
+*ivate.bat

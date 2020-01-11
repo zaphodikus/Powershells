@@ -1,7 +1,7 @@
 Param([parameter(mandatory=$false)][string]$password = (gc '_password.txt'), 
-	  $ftpServer = (gc '_ftpsserver.txt'),
+	  $ftpServer = (gc '_ftpserver.txt'),
 	  $ftpSite = (gc "_ftpsite.txt"),
-	  $siteFolder = (cg '_ftp_imagespath.txt'),
+	  $siteFolder = (gc '_ftp_imagespath.txt'),
 	  [string]$uploadSermonFile = ""
 	  )
 $erroractionpreference ='stop'
@@ -13,11 +13,12 @@ $erroractionpreference ='stop'
 		$commands | out-file .\response.txt -encoding ASCII -force
 		$lastexitcode = 0
 		Write-Host "Logging into FTP server, use -verbose to see FTP conversation"
-		gc .\response.txt | write-verbose
+		# gc .\response.txt | write-verbose
 		$results = & ftp.exe -s:response.txt 
 		$results | write-verbose # add -verbose on commandline to get verbose trace
 		if ($lastexitcode -ne 0) { throw "Error occured: $results" }
 		$results | ?{$_ -like '530 Authentication failed, sorry'}| %{throw $_}
+		$results | ?{$_ -like 'Connection closed by remote host'} | %{throw $_} # host did not like us for some reason 		
 		$results
 	}
 

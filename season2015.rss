@@ -1,0 +1,602 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0">
+  <channel>
+    <title>Cottenham Baptist Church 2015 Sermons</title>
+    <description>&lt;![CDATA[Get comfortable and listen to Kate Lees our minister at a tiny community church. &lt;br/&gt;
+We record most Sundays, but sometimes the equipment beats us, or we are just having more community spirit than we should. Kate and our leadership team do change it up a lot. This podcast will be broken into seasons or years as a separate feed to make it easier to manage. The first season are all local stand-in preachers, but in (fill year here) Kate left her big church in London to serve us, along with her husband Simon and 2 boys.&lt;br/&gt;
+Other seasons: &lt;a href="http://www.cottenhambaptist.org.uk/Sermons/season2019.rss"&gt;2020 Sermons&lt;/a&gt;&lt;br/&gt;
+&lt;a href="http://www.cottenhambaptist.org.uk/Sermons/season2019.rss"&gt;2019 Sermons&lt;/a&gt;&lt;br/&gt;
+&lt;a href="http://www.cottenhambaptist.org.uk/Sermons/season2018.rss"&gt;2018 Sermons&lt;/a&gt;&lt;br/&gt;
+&lt;a href="http://www.cottenhambaptist.org.uk/Sermons/season2017.rss"&gt;2017 Sermons&lt;/a&gt;&lt;br/&gt;
+&lt;a href="http://www.cottenhambaptist.org.uk/Sermons/season2016.rss"&gt;2016 Sermons&lt;/a&gt;&lt;br/&gt;
+&lt;a href="http://www.cottenhambaptist.org.uk/Sermons/season2015.rss"&gt;2015 Sermons&lt;/a&gt;&lt;br/&gt;
+&lt;a href="http://www.cottenhambaptist.org.uk/Sermons/season2014.rss"&gt;2014 Sermons&lt;/a&gt;&lt;br/&gt;
+&lt;a href="http://www.cottenhambaptist.org.uk/Sermons/season2013.rss"&gt;2013 Sermons&lt;/a&gt;&lt;br/&gt;
+]]&gt;</description>
+    <link>http://www.cottenhambaptist.org.uk</link>
+    <language>en-UK</language>
+    <copyright>&amp;#169; Cottenham Baptist Church</copyright>
+    <lastBuildDate>2020-01-11T14:24:43</lastBuildDate>
+    <pubDate>Sat, 11 Jan 2020 14:01:43 GMT</pubDate>
+    <itunes:image href="http://www.cottenhambaptist.org.uk/images/coverart2015.jpg" />
+    <itunes:author>Cottenham Baptist Church</itunes:author>
+    <itunes:explicit>false</itunes:explicit>
+    <itunes:owner>
+      <itunes:name>Cottenham Baptist Church</itunes:name>
+      <itunes:email>zaphodikus@hotmail.com</itunes:email>
+    </itunes:owner>
+    <itunes:category text="Religion &amp; Spirituality">
+      <itunes:category text="Christianity" />
+    </itunes:category>
+    <item>
+      <itunes:author>Carol Richardson</itunes:author>
+      <title>Sun January 4 preaching: Carol Richardson</title>
+      <link>http://www.cottenhambaptist.org.uk</link>
+      <description>Sun January 4 preaching: Carol Richardson\n</description>
+      <guid>2015-01-04.mp3</guid>
+      <enclosure url="http://www.cottenhambaptist.org.uk/Sermons/2015-01-04.mp3" length="19444129" type="audio/mpeg" />
+      <category>Podcasts</category>
+      <pubDate>Sun, 04 Jan 2015 00:01:00 GMT</pubDate>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:duration>00:32:22</itunes:duration>
+    </item>
+    <item>
+      <itunes:author>Kate Lees</itunes:author>
+      <title>Sun January 11 preaching: Kate Lees</title>
+      <link>http://www.cottenhambaptist.org.uk</link>
+      <description>Sun January 11 preaching: Kate Lees\n</description>
+      <guid>2015-01-11.mp3</guid>
+      <enclosure url="http://www.cottenhambaptist.org.uk/Sermons/2015-01-11.mp3" length="17527170" type="audio/mpeg" />
+      <category>Podcasts</category>
+      <pubDate>Sun, 11 Jan 2015 00:01:00 GMT</pubDate>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:duration>00:29:10</itunes:duration>
+    </item>
+    <item>
+      <itunes:author>Kate Lees</itunes:author>
+      <title>Sun January 18 preaching: Kate Lees</title>
+      <link>http://www.cottenhambaptist.org.uk</link>
+      <description>Sun January 18 preaching: Kate Lees\n</description>
+      <guid>2015-01-18.mp3</guid>
+      <enclosure url="http://www.cottenhambaptist.org.uk/Sermons/2015-01-18.mp3" length="11921440" type="audio/mpeg" />
+      <category>Podcasts</category>
+      <pubDate>Sun, 18 Jan 2015 00:01:00 GMT</pubDate>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:duration>00:19:50</itunes:duration>
+    </item>
+    <item>
+      <itunes:author>Kate Lees</itunes:author>
+      <title>Sun January 25 preaching: Kate Lees</title>
+      <link>http://www.cottenhambaptist.org.uk</link>
+      <description>Sun January 25 preaching: Kate Lees\n</description>
+      <guid>2015-01-25.mp3</guid>
+      <enclosure url="http://www.cottenhambaptist.org.uk/Sermons/2015-01-25.mp3" length="23813287" type="audio/mpeg" />
+      <category>Podcasts</category>
+      <pubDate>Sun, 25 Jan 2015 00:01:00 GMT</pubDate>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:duration>00:39:38</itunes:duration>
+    </item>
+    <item>
+      <itunes:author>Kate Lees</itunes:author>
+      <title>Sun February 1 preaching: Kate Lees</title>
+      <link>http://www.cottenhambaptist.org.uk</link>
+      <description>Sun February 1 preaching: Kate Lees\n</description>
+      <guid>2015-02-01.mp3</guid>
+      <enclosure url="http://www.cottenhambaptist.org.uk/Sermons/2015-02-01.mp3" length="9783794" type="audio/mpeg" />
+      <category>Podcasts</category>
+      <pubDate>Sun, 01 Feb 2015 00:02:00 GMT</pubDate>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:duration>00:16:17</itunes:duration>
+    </item>
+    <item>
+      <itunes:author>Kate Lees</itunes:author>
+      <title>Sun February 8 preaching: Kate Lees</title>
+      <link>http://www.cottenhambaptist.org.uk</link>
+      <description>Sun February 8 preaching: Kate Lees\n</description>
+      <guid>2015-02-08.mp3</guid>
+      <enclosure url="http://www.cottenhambaptist.org.uk/Sermons/2015-02-08.mp3" length="9311812" type="audio/mpeg" />
+      <category>Podcasts</category>
+      <pubDate>Sun, 08 Feb 2015 00:02:00 GMT</pubDate>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:duration>00:15:30</itunes:duration>
+    </item>
+    <item>
+      <itunes:author>Kate Lees</itunes:author>
+      <title>Sun February 15 preaching: Kate Lees</title>
+      <link>http://www.cottenhambaptist.org.uk</link>
+      <description>Sun February 15 preaching: Kate Lees\n</description>
+      <guid>2015-02-15.mp3</guid>
+      <enclosure url="http://www.cottenhambaptist.org.uk/Sermons/2015-02-15.mp3" length="7908419" type="audio/mpeg" />
+      <category>Podcasts</category>
+      <pubDate>Sun, 15 Feb 2015 00:02:00 GMT</pubDate>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:duration>00:13:09</itunes:duration>
+    </item>
+    <item>
+      <itunes:author>Carol Richardson</itunes:author>
+      <title>Sun February 22 preaching: Carol Richardson</title>
+      <link>http://www.cottenhambaptist.org.uk</link>
+      <description>Sun February 22 preaching: Carol Richardson\n</description>
+      <guid>2015-02-22.mp3</guid>
+      <enclosure url="http://www.cottenhambaptist.org.uk/Sermons/2015-02-22.mp3" length="15156287" type="audio/mpeg" />
+      <category>Podcasts</category>
+      <pubDate>Sun, 22 Feb 2015 00:02:00 GMT</pubDate>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:duration>00:25:14</itunes:duration>
+    </item>
+    <item>
+      <itunes:author>Kate Lees</itunes:author>
+      <title>Sun March 1 preaching: Kate Lees</title>
+      <link>http://www.cottenhambaptist.org.uk</link>
+      <description>Sun March 1 preaching: Kate Lees\n</description>
+      <guid>2015-03-01.mp3</guid>
+      <enclosure url="http://www.cottenhambaptist.org.uk/Sermons/2015-03-01.mp3" length="10276956" type="audio/mpeg" />
+      <category>Podcasts</category>
+      <pubDate>Sun, 01 Mar 2015 00:03:00 GMT</pubDate>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:duration>00:17:06</itunes:duration>
+    </item>
+    <item>
+      <itunes:author>Kate Lees</itunes:author>
+      <title>Sun March 8 preaching: Kate Lees</title>
+      <link>http://www.cottenhambaptist.org.uk</link>
+      <description>Sun March 8 preaching: Kate Lees\n</description>
+      <guid>2015-03-08.mp3</guid>
+      <enclosure url="http://www.cottenhambaptist.org.uk/Sermons/2015-03-08.mp3" length="21554051" type="audio/mpeg" />
+      <category>Podcasts</category>
+      <pubDate>Sun, 08 Mar 2015 00:03:00 GMT</pubDate>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:duration>00:35:53</itunes:duration>
+    </item>
+    <item>
+      <itunes:author>Kate Lees</itunes:author>
+      <title>Sun March 15 preaching: Kate Lees</title>
+      <link>http://www.cottenhambaptist.org.uk</link>
+      <description>Sun March 15 preaching: Kate Lees\n</description>
+      <guid>2015-03-15.mp3</guid>
+      <enclosure url="http://www.cottenhambaptist.org.uk/Sermons/2015-03-15.mp3" length="11607919" type="audio/mpeg" />
+      <category>Podcasts</category>
+      <pubDate>Sun, 15 Mar 2015 00:03:00 GMT</pubDate>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:duration>00:19:19</itunes:duration>
+    </item>
+    <item>
+      <itunes:author>Simon Oliver</itunes:author>
+      <title>Sun March 22 preaching: Simon Oliver</title>
+      <link>http://www.cottenhambaptist.org.uk</link>
+      <description>Sun March 22 preaching: Simon Oliver\n</description>
+      <guid>2015-03-22.mp3</guid>
+      <enclosure url="http://www.cottenhambaptist.org.uk/Sermons/2015-03-22.mp3" length="23109893" type="audio/mpeg" />
+      <category>Podcasts</category>
+      <pubDate>Sun, 22 Mar 2015 00:03:00 GMT</pubDate>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:duration>00:38:28</itunes:duration>
+    </item>
+    <item>
+      <itunes:author>Kate Lees</itunes:author>
+      <title>Sun March 29 preaching: Kate Lees</title>
+      <link>http://www.cottenhambaptist.org.uk</link>
+      <description>Sun March 29 preaching: Kate Lees\n</description>
+      <guid>2015-03-29.mp3</guid>
+      <enclosure url="http://www.cottenhambaptist.org.uk/Sermons/2015-03-29.mp3" length="7562473" type="audio/mpeg" />
+      <category>Podcasts</category>
+      <pubDate>Sun, 29 Mar 2015 00:03:00 GMT</pubDate>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:duration>00:12:35</itunes:duration>
+    </item>
+    <item>
+      <itunes:author>Kate Lees</itunes:author>
+      <title>Fri April 3 preaching: Kate Lees</title>
+      <link>http://www.cottenhambaptist.org.uk</link>
+      <description>Fri April 3 preaching: Kate Lees\n</description>
+      <guid>2015-04-03.mp3</guid>
+      <enclosure url="http://www.cottenhambaptist.org.uk/Sermons/2015-04-03.mp3" length="8950178" type="audio/mpeg" />
+      <category>Podcasts</category>
+      <pubDate>Fri, 03 Apr 2015 00:04:00 GMT</pubDate>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:duration>00:14:54</itunes:duration>
+    </item>
+    <item>
+      <itunes:author>Kate Lees</itunes:author>
+      <title>Sun April 5 preaching: Kate Lees</title>
+      <link>http://www.cottenhambaptist.org.uk</link>
+      <description>Sun April 5 preaching: Kate Lees\n</description>
+      <guid>2015-04-05.mp3</guid>
+      <enclosure url="http://www.cottenhambaptist.org.uk/Sermons/2015-04-05.mp3" length="11521105" type="audio/mpeg" />
+      <category>Podcasts</category>
+      <pubDate>Sun, 05 Apr 2015 00:04:00 GMT</pubDate>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:duration>00:19:10</itunes:duration>
+    </item>
+    <item>
+      <itunes:author>Andrew Martin</itunes:author>
+      <title>Sun April 12 preaching: Andrew Martin</title>
+      <link>http://www.cottenhambaptist.org.uk</link>
+      <description>Sun April 12 preaching: Andrew Martin\n</description>
+      <guid>2015-04-12.mp3</guid>
+      <enclosure url="http://www.cottenhambaptist.org.uk/Sermons/2015-04-12.mp3" length="16732781" type="audio/mpeg" />
+      <category>Podcasts</category>
+      <pubDate>Sun, 12 Apr 2015 00:04:00 GMT</pubDate>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:duration>00:27:51</itunes:duration>
+    </item>
+    <item>
+      <itunes:author>Kate Lees</itunes:author>
+      <title>Sun April 19 preaching: Kate Lees</title>
+      <link>http://www.cottenhambaptist.org.uk</link>
+      <description>Sun April 19 preaching: Kate Lees\n</description>
+      <guid>2015-04-19.mp3</guid>
+      <enclosure url="http://www.cottenhambaptist.org.uk/Sermons/2015-04-19.mp3" length="10604075" type="audio/mpeg" />
+      <category>Podcasts</category>
+      <pubDate>Sun, 19 Apr 2015 00:04:00 GMT</pubDate>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:duration>00:17:39</itunes:duration>
+    </item>
+    <item>
+      <itunes:author>Kate Lees</itunes:author>
+      <title>Sun April 26 preaching: Kate Lees</title>
+      <link>http://www.cottenhambaptist.org.uk</link>
+      <description>Sun April 26 preaching: Kate Lees\n</description>
+      <guid>2015-04-26.mp3</guid>
+      <enclosure url="http://www.cottenhambaptist.org.uk/Sermons/2015-04-26.mp3" length="18059817" type="audio/mpeg" />
+      <category>Podcasts</category>
+      <pubDate>Sun, 26 Apr 2015 00:04:00 GMT</pubDate>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:duration>00:30:04</itunes:duration>
+    </item>
+    <item>
+      <itunes:author>Kate Lees</itunes:author>
+      <title>Sun May 3 preaching: Kate Lees</title>
+      <link>http://www.cottenhambaptist.org.uk</link>
+      <description>Sun May 3 preaching: Kate Lees\n</description>
+      <guid>2015-05-03.mp3</guid>
+      <enclosure url="http://www.cottenhambaptist.org.uk/Sermons/2015-05-03.mp3" length="15017170" type="audio/mpeg" />
+      <category>Podcasts</category>
+      <pubDate>Sun, 03 May 2015 00:05:00 GMT</pubDate>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:duration>00:25:00</itunes:duration>
+    </item>
+    <item>
+      <itunes:author>Kate Lees</itunes:author>
+      <title>Sun May 10 preaching: Kate Lees</title>
+      <link>http://www.cottenhambaptist.org.uk</link>
+      <description>Sun May 10 preaching: Kate Lees\n</description>
+      <guid>2015-05-10.mp3</guid>
+      <enclosure url="http://www.cottenhambaptist.org.uk/Sermons/2015-05-10.mp3" length="12802385" type="audio/mpeg" />
+      <category>Podcasts</category>
+      <pubDate>Sun, 10 May 2015 00:05:00 GMT</pubDate>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:duration>00:21:18</itunes:duration>
+    </item>
+    <item>
+      <itunes:author>Kate Lees</itunes:author>
+      <title>Sun May 17 preaching: Kate Lees</title>
+      <link>http://www.cottenhambaptist.org.uk</link>
+      <description>Sun May 17 preaching: Kate Lees\n</description>
+      <guid>2015-05-17.mp3</guid>
+      <enclosure url="http://www.cottenhambaptist.org.uk/Sermons/2015-05-17.mp3" length="15277870" type="audio/mpeg" />
+      <category>Podcasts</category>
+      <pubDate>Sun, 17 May 2015 00:05:00 GMT</pubDate>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:duration>00:25:26</itunes:duration>
+    </item>
+    <item>
+      <itunes:author>Lloyd Wilson</itunes:author>
+      <title>Sun May 24 preaching: Lloyd Wilson</title>
+      <link>http://www.cottenhambaptist.org.uk</link>
+      <description>Sun May 24 preaching: Lloyd Wilson\n</description>
+      <guid>2015-05-24.mp3</guid>
+      <enclosure url="http://www.cottenhambaptist.org.uk/Sermons/2015-05-24.mp3" length="14324235" type="audio/mpeg" />
+      <category>Podcasts</category>
+      <pubDate>Sun, 24 May 2015 00:05:00 GMT</pubDate>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:duration>00:23:50</itunes:duration>
+    </item>
+    <item>
+      <itunes:author>Kate Lees</itunes:author>
+      <title>Sun May 31 preaching: Kate Lees</title>
+      <link>http://www.cottenhambaptist.org.uk</link>
+      <description>Sun May 31 preaching: Kate Lees\n</description>
+      <guid>2015-05-31.mp3</guid>
+      <enclosure url="http://www.cottenhambaptist.org.uk/Sermons/2015-05-31.mp3" length="8428775" type="audio/mpeg" />
+      <category>Podcasts</category>
+      <pubDate>Sun, 31 May 2015 00:05:00 GMT</pubDate>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:duration>00:14:01</itunes:duration>
+    </item>
+    <item>
+      <itunes:author>Kate Lees</itunes:author>
+      <title>Sun June 7 preaching: Kate Lees</title>
+      <link>http://www.cottenhambaptist.org.uk</link>
+      <description>Sun June 7 preaching: Kate Lees\n</description>
+      <guid>2015-06-07.mp3</guid>
+      <enclosure url="http://www.cottenhambaptist.org.uk/Sermons/2015-06-07.mp3" length="6865613" type="audio/mpeg" />
+      <category>Podcasts</category>
+      <pubDate>Sun, 07 Jun 2015 00:06:00 GMT</pubDate>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:duration>00:11:25</itunes:duration>
+    </item>
+    <item>
+      <itunes:author>John Auger</itunes:author>
+      <title>Sun June 14 preaching: John Auger</title>
+      <link>http://www.cottenhambaptist.org.uk</link>
+      <description>Sun June 14 preaching: John Auger\n</description>
+      <guid>2015-06-14.mp3</guid>
+      <enclosure url="http://www.cottenhambaptist.org.uk/Sermons/2015-06-14.mp3" length="17367927" type="audio/mpeg" />
+      <category>Podcasts</category>
+      <pubDate>Sun, 14 Jun 2015 00:06:00 GMT</pubDate>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:duration>00:28:54</itunes:duration>
+    </item>
+    <item>
+      <itunes:author>Kate Lees</itunes:author>
+      <title>Sun June 21 preaching: Kate Lees</title>
+      <link>http://www.cottenhambaptist.org.uk</link>
+      <description>Sun June 21 preaching: Kate Lees\n</description>
+      <guid>2015-06-21.mp3</guid>
+      <enclosure url="http://www.cottenhambaptist.org.uk/Sermons/2015-06-21.mp3" length="11288383" type="audio/mpeg" />
+      <category>Podcasts</category>
+      <pubDate>Sun, 21 Jun 2015 00:06:00 GMT</pubDate>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:duration>00:18:47</itunes:duration>
+    </item>
+    <item>
+      <itunes:author>Kate Lees</itunes:author>
+      <title>Sun June 28 preaching: Kate Lees</title>
+      <link>http://www.cottenhambaptist.org.uk</link>
+      <description>Sun June 28 preaching: Kate Lees\n</description>
+      <guid>2015-06-28.mp3</guid>
+      <enclosure url="http://www.cottenhambaptist.org.uk/Sermons/2015-06-28.mp3" length="13575076" type="audio/mpeg" />
+      <category>Podcasts</category>
+      <pubDate>Sun, 28 Jun 2015 00:06:00 GMT</pubDate>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:duration>00:22:36</itunes:duration>
+    </item>
+    <item>
+      <itunes:author>Kate Lees</itunes:author>
+      <title>Sun July 12 preaching: Kate Lees</title>
+      <link>http://www.cottenhambaptist.org.uk</link>
+      <description>Sun July 12 preaching: Kate Lees\n</description>
+      <guid>2015-07-12.mp3</guid>
+      <enclosure url="http://www.cottenhambaptist.org.uk/Sermons/2015-07-12.mp3" length="19789807" type="audio/mpeg" />
+      <category>Podcasts</category>
+      <pubDate>Sun, 12 Jul 2015 00:07:00 GMT</pubDate>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:duration>00:32:56</itunes:duration>
+    </item>
+    <item>
+      <itunes:author>Kate Lees</itunes:author>
+      <title>Sun July 19 preaching: Kate Lees</title>
+      <link>http://www.cottenhambaptist.org.uk</link>
+      <description>Sun July 19 preaching: Kate Lees\n</description>
+      <guid>2015-07-19.mp3</guid>
+      <enclosure url="http://www.cottenhambaptist.org.uk/Sermons/2015-07-19.mp3" length="15734163" type="audio/mpeg" />
+      <category>Podcasts</category>
+      <pubDate>Sun, 19 Jul 2015 00:07:00 GMT</pubDate>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:duration>00:26:11</itunes:duration>
+    </item>
+    <item>
+      <itunes:author>Steve Whyatt</itunes:author>
+      <title>Sun August 2 preaching: Steve Whyatt</title>
+      <link>http://www.cottenhambaptist.org.uk</link>
+      <description>Sun August 2 preaching: Steve Whyatt\n</description>
+      <guid>2015-08-02.mp3</guid>
+      <enclosure url="http://www.cottenhambaptist.org.uk/Sermons/2015-08-02.mp3" length="25587209" type="audio/mpeg" />
+      <category>Podcasts</category>
+      <pubDate>Sun, 02 Aug 2015 00:08:00 GMT</pubDate>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:duration>00:42:36</itunes:duration>
+    </item>
+    <item>
+      <itunes:author>Kate Lees</itunes:author>
+      <title>Sun August 9 preaching: Kate Lees</title>
+      <link>http://www.cottenhambaptist.org.uk</link>
+      <description>Sun August 9 preaching: Kate Lees\n</description>
+      <guid>2015-08-09.mp3</guid>
+      <enclosure url="http://www.cottenhambaptist.org.uk/Sermons/2015-08-09.mp3" length="14013848" type="audio/mpeg" />
+      <category>Podcasts</category>
+      <pubDate>Sun, 09 Aug 2015 00:08:00 GMT</pubDate>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:duration>00:23:19</itunes:duration>
+    </item>
+    <item>
+      <itunes:author>Kate Lees</itunes:author>
+      <title>Sun August 16 preaching: Kate Lees</title>
+      <link>http://www.cottenhambaptist.org.uk</link>
+      <description>Sun August 16 preaching: Kate Lees\n</description>
+      <guid>2015-08-16.mp3</guid>
+      <enclosure url="http://www.cottenhambaptist.org.uk/Sermons/2015-08-16.mp3" length="8319997" type="audio/mpeg" />
+      <category>Podcasts</category>
+      <pubDate>Sun, 16 Aug 2015 00:08:00 GMT</pubDate>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:duration>00:13:51</itunes:duration>
+    </item>
+    <item>
+      <itunes:author>Margret Jude</itunes:author>
+      <title>Sun August 23 preaching: Margret Jude</title>
+      <link>http://www.cottenhambaptist.org.uk</link>
+      <description>Sun August 23 preaching: Margret Jude\n</description>
+      <guid>2015-08-23.mp3</guid>
+      <enclosure url="http://www.cottenhambaptist.org.uk/Sermons/2015-08-23.mp3" length="21593800" type="audio/mpeg" />
+      <category>Podcasts</category>
+      <pubDate>Sun, 23 Aug 2015 00:08:00 GMT</pubDate>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:duration>00:35:57</itunes:duration>
+    </item>
+    <item>
+      <itunes:author>Colin Bell</itunes:author>
+      <title>Sun August 30 preaching: Colin Bell</title>
+      <link>http://www.cottenhambaptist.org.uk</link>
+      <description>Sun August 30 preaching: Colin Bell\n</description>
+      <guid>2015-08-30.mp3</guid>
+      <enclosure url="http://www.cottenhambaptist.org.uk/Sermons/2015-08-30.mp3" length="21748597" type="audio/mpeg" />
+      <category>Podcasts</category>
+      <pubDate>Sun, 30 Aug 2015 00:08:00 GMT</pubDate>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:duration>00:36:12</itunes:duration>
+    </item>
+    <item>
+      <itunes:author>Kate Lees</itunes:author>
+      <title>Sun September 6 preaching: Kate Lees</title>
+      <link>http://www.cottenhambaptist.org.uk</link>
+      <description>Sun September 6 preaching: Kate Lees\n</description>
+      <guid>2015-09-06.mp3</guid>
+      <enclosure url="http://www.cottenhambaptist.org.uk/Sermons/2015-09-06.mp3" length="10144906" type="audio/mpeg" />
+      <category>Podcasts</category>
+      <pubDate>Sun, 06 Sep 2015 00:09:00 GMT</pubDate>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:duration>00:16:53</itunes:duration>
+    </item>
+    <item>
+      <itunes:author>Kate Lees</itunes:author>
+      <title>Sun September 13 preaching: Kate Lees</title>
+      <link>http://www.cottenhambaptist.org.uk</link>
+      <description>Sun September 13 preaching: Kate Lees\n</description>
+      <guid>2015-09-13.mp3</guid>
+      <enclosure url="http://www.cottenhambaptist.org.uk/Sermons/2015-09-13.mp3" length="14528975" type="audio/mpeg" />
+      <category>Podcasts</category>
+      <pubDate>Sun, 13 Sep 2015 00:09:00 GMT</pubDate>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:duration>00:24:11</itunes:duration>
+    </item>
+    <item>
+      <itunes:author>Kate Lees</itunes:author>
+      <title>Tue September 22 preaching: Kate Lees</title>
+      <link>http://www.cottenhambaptist.org.uk</link>
+      <description>Tue September 22 preaching: Kate Lees\n</description>
+      <guid>2015-09-22.mp3</guid>
+      <enclosure url="http://www.cottenhambaptist.org.uk/Sermons/2015-09-22.mp3" length="13677579" type="audio/mpeg" />
+      <category>Podcasts</category>
+      <pubDate>Tue, 22 Sep 2015 00:09:00 GMT</pubDate>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:duration>00:22:46</itunes:duration>
+    </item>
+    <item>
+      <itunes:author>Kate Lees</itunes:author>
+      <title>Sun October 4 preaching: Kate Lees</title>
+      <link>http://www.cottenhambaptist.org.uk</link>
+      <description>Sun October 4 preaching: Kate Lees\n</description>
+      <guid>2015-10-04.mp3</guid>
+      <enclosure url="http://www.cottenhambaptist.org.uk/Sermons/2015-10-04.mp3" length="7427023" type="audio/mpeg" />
+      <category>Podcasts</category>
+      <pubDate>Sun, 04 Oct 2015 00:10:00 GMT</pubDate>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:duration>00:12:21</itunes:duration>
+    </item>
+    <item>
+      <itunes:author>Kate Lees</itunes:author>
+      <title>Sun October 11 preaching: Kate Lees</title>
+      <link>http://www.cottenhambaptist.org.uk</link>
+      <description>Sun October 11 preaching: Kate Lees\n</description>
+      <guid>2015-10-11.mp3</guid>
+      <enclosure url="http://www.cottenhambaptist.org.uk/Sermons/2015-10-11.mp3" length="21898530" type="audio/mpeg" />
+      <category>Podcasts</category>
+      <pubDate>Sun, 11 Oct 2015 00:10:00 GMT</pubDate>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:duration>00:22:47</itunes:duration>
+    </item>
+    <item>
+      <itunes:author>Kate Lees</itunes:author>
+      <title>Sun October 18 preaching: Kate Lees</title>
+      <link>http://www.cottenhambaptist.org.uk</link>
+      <description>Sun October 18 preaching: Kate Lees\n</description>
+      <guid>2015-10-18.mp3</guid>
+      <enclosure url="http://www.cottenhambaptist.org.uk/Sermons/2015-10-18.mp3" length="21666750" type="audio/mpeg" />
+      <category>Podcasts</category>
+      <pubDate>Sun, 18 Oct 2015 00:10:00 GMT</pubDate>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:duration>00:22:32</itunes:duration>
+    </item>
+    <item>
+      <itunes:author>Michael</itunes:author>
+      <title>Sun October 25 preaching: Michael</title>
+      <link>http://www.cottenhambaptist.org.uk</link>
+      <description>Sun October 25 preaching: Michael\n</description>
+      <guid>2015-10-25.mp3</guid>
+      <enclosure url="http://www.cottenhambaptist.org.uk/Sermons/2015-10-25.mp3" length="33575434" type="audio/mpeg" />
+      <category>Podcasts</category>
+      <pubDate>Sun, 25 Oct 2015 00:10:00 GMT</pubDate>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:duration>00:34:56</itunes:duration>
+    </item>
+    <item>
+      <itunes:author>Kate Lees</itunes:author>
+      <title>Sun November 22 preaching: Kate Lees</title>
+      <link />
+      <description>Sun November 22 preaching: Kate Lees\n</description>
+      <guid>2015-11-22.mp3</guid>
+      <enclosure url="http://www.cottenhambaptist.org.uk/Sermons/2015-11-22.mp3" length="21971328" type="audio/mpeg" />
+      <category>Podcasts</category>
+      <pubDate>Sun, 22 Nov 2015 00:11:00 GMT</pubDate>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:duration>00:22:51</itunes:duration>
+      <itunes:image>https://scontent.fltn1-1.fna.fbcdn.net/v/t1.0-9/fr/cp0/e15/q65/11224206_952215791504254_2237891659003509852_n.jpg?_nc_cat=102&amp;efg=eyJpIjoidCJ9&amp;_nc_oc=AQlanlilvcFWpywlkr1vgIrskcLlH4BKt_WdWEf0y4Q4Z2mpzyAsKdbu0alguGt8yWI&amp;_nc_ht=scontent.fltn1-1.fna&amp;_nc_tp=12&amp;oh=50c1e2da42cd81399ece9353b571f3ff&amp;oe=5E9C9C41</itunes:image>
+    </item>
+    <item>
+      <itunes:author>Kate Lees</itunes:author>
+      <title>Sun November 29 preaching: Kate Lees</title>
+      <link />
+      <description>Sun November 29 preaching: Kate Lees\n</description>
+      <guid>2015-11-29.mp3</guid>
+      <enclosure url="http://www.cottenhambaptist.org.uk/Sermons/2015-11-29.mp3" length="7112246" type="audio/mpeg" />
+      <category>Podcasts</category>
+      <pubDate>Sun, 29 Nov 2015 00:11:00 GMT</pubDate>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:duration>00:07:24</itunes:duration>
+      <itunes:image>https://scontent.fltn1-1.fna.fbcdn.net/v/t31.0-0/c112.0.476.249a/p476x249/12307429_954765591249274_7195954809282060826_o.jpg?_nc_cat=102&amp;_nc_oc=AQnQTbRs6rSVexqCeUxpDIWRqpDl4fIu4AeJ-t8mTxHMOSx5f8iDADqHO_K5bgiDiEI&amp;_nc_ht=scontent.fltn1-1.fna&amp;_nc_tp=1&amp;oh=7e27330a59d0b56f2786985b7fdff4ef&amp;oe=5E98EFA2</itunes:image>
+    </item>
+    <item>
+      <itunes:author>Gener8</itunes:author>
+      <title>Sun December 6 preaching: Gener8</title>
+      <link>https://m.facebook.com/story.php?story_fbid=953812878011212&amp;id=162430413816133</link>
+      <description>Sun December 6 preaching: Gener8\n</description>
+      <guid>2015-12-06.mp3</guid>
+      <enclosure url="http://www.cottenhambaptist.org.uk/Sermons/2015-12-06.mp3" length="7651112" type="audio/mpeg" />
+      <category>Podcasts</category>
+      <pubDate>Sun, 06 Dec 2015 00:12:00 GMT</pubDate>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:duration>00:07:57</itunes:duration>
+      <itunes:image>None</itunes:image>
+    </item>
+    <item>
+      <itunes:author>Kate Lees</itunes:author>
+      <title>Sun December 13 preaching: Kate Lees</title>
+      <link />
+      <description>Sun December 13 preaching: Kate Lees\n</description>
+      <guid>2015-12-13.mp3</guid>
+      <enclosure url="http://www.cottenhambaptist.org.uk/Sermons/2015-12-13.mp3" length="30420873" type="audio/mpeg" />
+      <category>Podcasts</category>
+      <pubDate>Sun, 13 Dec 2015 00:12:00 GMT</pubDate>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:duration>00:31:39</itunes:duration>
+      <itunes:image>https://scontent.fltn1-2.fna.fbcdn.net/v/t1.0-9/fr/cp0/e15/q65/12360270_961526997239800_8631352225044761943_n.jpg?_nc_cat=103&amp;efg=eyJpIjoidCJ9&amp;_nc_oc=AQlwCDNlV4ZAts7a4BT9qbKQkey_jAzJfM9RCsd1wKbgh_ToAknE8bLtZS99jF62aME&amp;_nc_ht=scontent.fltn1-2.fna&amp;_nc_tp=12&amp;oh=49bba0e1de5b160581836544ed4e58a4&amp;oe=5E9645B5</itunes:image>
+    </item>
+    <item>
+      <itunes:author>Kate Lees</itunes:author>
+      <title>Sun December 20 preaching: Kate Lees</title>
+      <link>https://m.facebook.com/story.php?story_fbid=962397343819432&amp;id=162430413816133</link>
+      <description>Sun December 20 preaching: Kate Lees\n</description>
+      <guid>2015-12-20.mp3</guid>
+      <enclosure url="http://www.cottenhambaptist.org.uk/Sermons/2015-12-20.mp3" length="20232134" type="audio/mpeg" />
+      <category>Podcasts</category>
+      <pubDate>Sun, 20 Dec 2015 00:12:00 GMT</pubDate>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:duration>00:21:03</itunes:duration>
+      <itunes:image>https://scontent.fltn1-1.fna.fbcdn.net/v/t31.0-8/fr/cp0/e15/q65/12339077_806037766185355_2859341609648019880_o.jpg?_nc_cat=102&amp;efg=eyJpIjoidCJ9&amp;_nc_oc=AQk2XfvdFLa4X99EfWc9ElIec92Jr2YiqCR-V4WaDaqq5AqcvJAvR3O6XfiM9ugJ8ws&amp;_nc_ht=scontent.fltn1-1.fna&amp;_nc_tp=12&amp;oh=cf2c3b07b250abde6ebeb0887ae96173&amp;oe=5EADCC48</itunes:image>
+    </item>
+    <item>
+      <itunes:author>Kate Lees</itunes:author>
+      <title>Fri December 25 preaching: Kate Lees</title>
+      <link>https://m.facebook.com/story.php?story_fbid=962400800485753&amp;id=162430413816133</link>
+      <description>Fri December 25 preaching: Kate Lees\n</description>
+      <guid>2015-12-25.mp3</guid>
+      <enclosure url="http://www.cottenhambaptist.org.uk/Sermons/2015-12-25.mp3" length="24040621" type="audio/mpeg" />
+      <category>Podcasts</category>
+      <pubDate>Fri, 25 Dec 2015 00:12:00 GMT</pubDate>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:duration>00:25:00</itunes:duration>
+      <itunes:image>https://scontent.fltn1-1.fna.fbcdn.net/v/t1.0-9/fr/cp0/e15/q65/12391943_910029952426976_1282662003653423519_n.jpg?_nc_cat=100&amp;efg=eyJpIjoidCJ9&amp;_nc_oc=AQlTSdQ2Amuj3mx6AciK-uyWBfQr6schB-Ev_PqOWawdVXF6hD-aOoMjYSPOl7sLySU&amp;_nc_ht=scontent.fltn1-1.fna&amp;_nc_tp=12&amp;oh=c4a173b1ebb4c1f36a4d31f5f8d783e0&amp;oe=5EA5CA51</itunes:image>
+    </item>
+  </channel>
+</rss>

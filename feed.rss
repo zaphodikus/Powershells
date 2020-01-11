@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <rss xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0">
   <channel>
-    <title>Cottenham Baptist Church 2019 Sermons</title>
+    <title>[Testing feed only] Cottenham Baptist Church 2019 Sermons</title>
     <description>Get comfortable and listen to Kate Lees our minister at a tiny community church. We record most Sundays, but sometimes the equipment beats us, or we are just having more community spirit than we should. Kate and our leadership team do change it up a lot. This podcast will be broken into seasons or years as a separate feed to make it easier to manage. The first season are all local stand-in preachers, but in (fill year here) Kate left her big church in London to serve us, along with her husband Simon and 2 boys.</description>
     <link>http://www.cottenhambaptist.org.uk</link>
     <language>en-UK</language>
@@ -10,6 +10,7 @@
     <pubDate>2020-01-06T22:22:33</pubDate>
     <itunes:image>http://www.cottenhambaptist.org.uk/images/coverart.jpg</itunes:image>
     <itunes:author>Cottenham Baptist Church</itunes:author>
+    <itunes:explicit>false</itunes:explicit>
     <itunes:category text="Religion &amp; Spirituality">
     </itunes:category>
     <item>

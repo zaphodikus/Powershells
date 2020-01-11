@@ -7,12 +7,18 @@ We record most Sundays, but sometimes the equipment beats us, or we are just hav
     <link>http://www.cottenhambaptist.org.uk</link>
     <language>en-UK</language>
     <copyright>&amp;#169; Cottenham Baptist Church</copyright>
-    <lastBuildDate>2020-01-10T20:48:06</lastBuildDate>
-    <pubDate>Fri, 10 Jan 2020 20:01:06 GMT</pubDate>
+    <lastBuildDate>2020-01-10T23:24:52</lastBuildDate>
+    <pubDate>Fri, 10 Jan 2020 23:01:52 GMT</pubDate>
     <itunes:image href="http://www.cottenhambaptist.org.uk/images/coverart2016.jpg" />
     <itunes:author>Cottenham Baptist Church</itunes:author>
     <itunes:explicit>false</itunes:explicit>
-    <itunes:category text="Religion &amp; Spirituality" />
+    <itunes:owner>
+      <itunes:name>Cottenham Baptist Church</itunes:name>
+      <itunes:email>zaphodikus@hotmail.com</itunes:email>
+    </itunes:owner>
+    <itunes:category text="Religion &amp; Spirituality">
+      <itunes:category text="Christianity" />
+    </itunes:category>
     <item>
       <itunes:author>Carol Richardson</itunes:author>
       <title>Sun January 3 preaching: Carol Richardson</title>

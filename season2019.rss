@@ -2,16 +2,31 @@
 <rss xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0">
   <channel>
     <title>Cottenham Baptist Church 2019 Sermons</title>
-    <description>Get comfortable and listen to Kate Lees our minister at a tiny community church. We record most Sundays, but sometimes the equipment beats us, or we are just having more community spirit than we should. Kate and our leadership team do change it up a lot. This podcast will be broken into seasons or years as a separate feed to make it easier to manage. The first season are all local stand-in preachers, but in (fill year here) Kate left her big church in London to serve us, along with her husband Simon and 2 boys.</description>
+    <description>&lt;![CDATA[Get comfortable and listen to Kate Lees our minister at a tiny community church. &lt;br/&gt;
+We record most Sundays, but sometimes the equipment beats us, or we are just having more community spirit than we should. Kate and our leadership team do change it up a lot. This podcast will be broken into seasons or years as a separate feed to make it easier to manage. The first season are all local stand-in preachers, but in (fill year here) Kate left her big church in London to serve us, along with her husband Simon and 2 boys.&lt;br/&gt;
+Other seasons: &lt;a href="http://www.cottenhambaptist.org.uk/Sermons/season2019.rss"&gt;2020 Sermons&lt;/a&gt;&lt;br/&gt;
+&lt;a href="http://www.cottenhambaptist.org.uk/Sermons/season2019.rss"&gt;2019 Sermons&lt;/a&gt;&lt;br/&gt;
+&lt;a href="http://www.cottenhambaptist.org.uk/Sermons/season2018.rss"&gt;2018 Sermons&lt;/a&gt;&lt;br/&gt;
+&lt;a href="http://www.cottenhambaptist.org.uk/Sermons/season2017.rss"&gt;2017 Sermons&lt;/a&gt;&lt;br/&gt;
+&lt;a href="http://www.cottenhambaptist.org.uk/Sermons/season2016.rss"&gt;2016 Sermons&lt;/a&gt;&lt;br/&gt;
+&lt;a href="http://www.cottenhambaptist.org.uk/Sermons/season2015.rss"&gt;2015 Sermons&lt;/a&gt;&lt;br/&gt;
+&lt;a href="http://www.cottenhambaptist.org.uk/Sermons/season2014.rss"&gt;2014 Sermons&lt;/a&gt;&lt;br/&gt;
+&lt;a href="http://www.cottenhambaptist.org.uk/Sermons/season2013.rss"&gt;2013 Sermons&lt;/a&gt;&lt;br/&gt;
+]]&gt;</description>
     <link>http://www.cottenhambaptist.org.uk</link>
     <language>en-UK</language>
-    <copyright>entity</copyright>
-    <lastBuildDate>2020-01-09T21:50:28</lastBuildDate>
-    <pubDate>2020-01-09T21:50:28</pubDate>
-    <itunes:image>http://www.cottenhambaptist.org.uk/images/coverart2019.jpg</itunes:image>
+    <copyright>&amp;#169; Cottenham Baptist Church</copyright>
+    <lastBuildDate>2020-01-11T14:20:53</lastBuildDate>
+    <pubDate>Sat, 11 Jan 2020 14:01:53 GMT</pubDate>
+    <itunes:image href="http://www.cottenhambaptist.org.uk/images/coverart2019.jpg" />
     <itunes:author>Cottenham Baptist Church</itunes:author>
     <itunes:explicit>false</itunes:explicit>
+    <itunes:owner>
+      <itunes:name>Cottenham Baptist Church</itunes:name>
+      <itunes:email>zaphodikus@hotmail.com</itunes:email>
+    </itunes:owner>
     <itunes:category text="Religion &amp; Spirituality">
+      <itunes:category text="Christianity" />
     </itunes:category>
     <item>
       <itunes:author>Kate Lees</itunes:author>
@@ -19,12 +34,12 @@
       <link>https://m.facebook.com/story.php?story_fbid=2052711394788016&amp;id=162430413816133</link>
       <description>Sun January 6 preaching: Kate Lees\n</description>
       <guid>2019-01-06.mp3</guid>
-      <enclosure url="http://www.cottenhambaptist.org.uk/Sermons/2019-01-06.mp3" length="00:09:21" type="audio/mpeg">
-      </enclosure>
+      <enclosure url="http://www.cottenhambaptist.org.uk/Sermons/2019-01-06.mp3" length="6348719" type="audio/mpeg" />
       <category>Podcasts</category>
-      <pubDate>2019-01-06 00:00:00Z</pubDate>
+      <pubDate>Sun, 06 Jan 2019 00:01:00 GMT</pubDate>
       <itunes:explicit>false</itunes:explicit>
-      <itunes:image>https://external.fltn1-2.fna.fbcdn.net/safe_image.php?d=AQCgTMR7Byi78Yr9&amp;w=476&amp;h=249&amp;url=https%3A%2F%2Fscontent.fltn1-2.fna.fbcdn.net%2Fv%2Ft1.0-0%2Fcp0%2Fe15%2Fq65%2Fc0.106.2048.1071a%2Fs480x480%2F47191395_2004594199599736_1209302489489211392_o.jpg%3F_nc_oc%3DAQk5NtK0StQFptv0ZYP8RrZEE6UXGMLMjhBc2HFwXe2Cls9sX-yqq1dksbOmUYqTfVY%26_nc_ht%3Dscontent.fltn1-2.fna%26oh%3D17f3f45425fccf955d2650344dffb706%26oe%3D5E9A1164&amp;cfs=1&amp;_nc_hash=AQB08c00SqD_3ogm</itunes:image>
+      <itunes:duration>00:09:21</itunes:duration>
+      <itunes:image>https://external.fltn1-2.fna.fbcdn.net/safe_image.php?d=AQCDlVbQccpPcN81&amp;w=476&amp;h=249&amp;url=https%3A%2F%2Fscontent.fltn1-2.fna.fbcdn.net%2Fv%2Ft1.0-0%2Fcp0%2Fe15%2Fq65%2Fc0.106.2048.1071a%2Fs480x480%2F47191395_2004594199599736_1209302489489211392_o.jpg%3F_nc_oc%3DAQkgNGSwh-4owDnBye3HtDCtdID_hmtsw1N1gaviSs0z9qB2Jw8l_lXz8igNyDwaFsQ%26_nc_ht%3Dscontent.fltn1-2.fna%26oh%3Dfafed870dc5678d0d57224b6ec9ec753%26oe%3D5E9A1164&amp;cfs=1&amp;_nc_hash=AQDcNcKXhr_busGA</itunes:image>
     </item>
     <item>
       <itunes:author>Kate Lees</itunes:author>
@@ -32,12 +47,12 @@
       <link>https://m.facebook.com/story.php?story_fbid=2057501740975648&amp;id=162430413816133</link>
       <description>Sun January 13 preaching: Kate Lees\n</description>
       <guid>2019-01-13.mp3</guid>
-      <enclosure url="http://www.cottenhambaptist.org.uk/Sermons/2019-01-13.mp3" length="00:21:31" type="audio/mpeg">
-      </enclosure>
+      <enclosure url="http://www.cottenhambaptist.org.uk/Sermons/2019-01-13.mp3" length="14907325" type="audio/mpeg" />
       <category>Podcasts</category>
-      <pubDate>2019-01-13 00:00:00Z</pubDate>
+      <pubDate>Sun, 13 Jan 2019 00:01:00 GMT</pubDate>
       <itunes:explicit>false</itunes:explicit>
-      <itunes:image>https://scontent.fltn1-2.fna.fbcdn.net/v/t1.0-9/fr/cp0/e15/q65/49661558_2057499624309193_1817284384735100928_o.jpg?_nc_cat=109&amp;efg=eyJpIjoidCJ9&amp;_nc_oc=AQlMiLiQUYksFHddVz9wF_1n5J_OswUvslzZinHz8HFWjZsHiegVNeW_nX8h-BFCJQc&amp;_nc_ht=scontent.fltn1-2.fna&amp;_nc_tp=12&amp;oh=70fd631d3fc72ab142a34ac5c99fc469&amp;oe=5E8D6429</itunes:image>
+      <itunes:duration>00:21:31</itunes:duration>
+      <itunes:image>https://scontent.fltn1-2.fna.fbcdn.net/v/t1.0-9/fr/cp0/e15/q65/49661558_2057499624309193_1817284384735100928_o.jpg?_nc_cat=109&amp;efg=eyJpIjoidCJ9&amp;_nc_oc=AQn4AtSwYZms5panGFPMggc9VEbsY0zDwLeJLq5nFzNdpVNXd2xhUAqskRQ4aZMP2-s&amp;_nc_ht=scontent.fltn1-2.fna&amp;_nc_tp=12&amp;oh=89352c7f5ecd24003cd36965a1431e5d&amp;oe=5E8D6429</itunes:image>
     </item>
     <item>
       <itunes:author>Kate Lees</itunes:author>
@@ -45,12 +60,12 @@
       <link>https://m.facebook.com/story.php?story_fbid=2064497126942776&amp;id=162430413816133</link>
       <description>Sun January 20 preaching: Kate Lees\n</description>
       <guid>2019-01-20.mp3</guid>
-      <enclosure url="http://www.cottenhambaptist.org.uk/Sermons/2019-01-20.mp3" length="00:20:04" type="audio/mpeg">
-      </enclosure>
+      <enclosure url="http://www.cottenhambaptist.org.uk/Sermons/2019-01-20.mp3" length="13489394" type="audio/mpeg" />
       <category>Podcasts</category>
-      <pubDate>2019-01-20 00:00:00Z</pubDate>
+      <pubDate>Sun, 20 Jan 2019 00:01:00 GMT</pubDate>
       <itunes:explicit>false</itunes:explicit>
-      <itunes:image>https://scontent.fltn1-1.fna.fbcdn.net/v/t1.0-9/fr/cp0/e15/q65/50103935_10156318020933920_727431764745650176_n.jpg?_nc_cat=111&amp;efg=eyJpIjoidCJ9&amp;_nc_oc=AQkaY2DwuoK9aiY5vWOq48ArqJMdFK6wh6sdXWljRwq_y_rd6247qVi7ins38AnABms&amp;_nc_ht=scontent.fltn1-1.fna&amp;_nc_tp=12&amp;oh=731659fa3ba64e0acd46bb045809565d&amp;oe=5E93D460</itunes:image>
+      <itunes:duration>00:20:04</itunes:duration>
+      <itunes:image>https://scontent.fltn1-1.fna.fbcdn.net/v/t1.0-9/fr/cp0/e15/q65/50103935_10156318020933920_727431764745650176_n.jpg?_nc_cat=111&amp;efg=eyJpIjoidCJ9&amp;_nc_oc=AQmrBVZ7MsoTX5uCygXG29z_gG-7P0w882v0BbV7gjGTAgcRHGh6yq9FVAnyjXORj0Y&amp;_nc_ht=scontent.fltn1-1.fna&amp;_nc_tp=12&amp;oh=7e7a2f1cd9a8258f40740da158132170&amp;oe=5E93D460</itunes:image>
     </item>
     <item>
       <itunes:author>Kate Lees</itunes:author>
@@ -58,12 +73,12 @@
       <link>https://m.facebook.com/story.php?story_fbid=2082218778503944&amp;id=162430413816133</link>
       <description>Sun January 27 preaching: Kate Lees\n</description>
       <guid>2019-01-27.mp3</guid>
-      <enclosure url="http://www.cottenhambaptist.org.uk/Sermons/2019-01-27.mp3" length="00:21:00" type="audio/mpeg">
-      </enclosure>
+      <enclosure url="http://www.cottenhambaptist.org.uk/Sermons/2019-01-27.mp3" length="14219607" type="audio/mpeg" />
       <category>Podcasts</category>
-      <pubDate>2019-01-27 00:00:00Z</pubDate>
+      <pubDate>Sun, 27 Jan 2019 00:01:00 GMT</pubDate>
       <itunes:explicit>false</itunes:explicit>
-      <itunes:image>https://scontent.fltn1-2.fna.fbcdn.net/v/t1.0-9/fr/cp0/e15/q65/50870243_2082218728503949_8476973967112929280_n.jpg?_nc_cat=105&amp;efg=eyJpIjoidCJ9&amp;_nc_oc=AQlostUcvEHzr8J8afT331AyJFoaAOvFtf3apli9tloaRLCpL05K6orcWljH4YTCYOE&amp;_nc_ht=scontent.fltn1-2.fna&amp;_nc_tp=12&amp;oh=f55aed3b691007486deadb46d0194d4a&amp;oe=5EAAF519</itunes:image>
+      <itunes:duration>00:21:00</itunes:duration>
+      <itunes:image>https://scontent.fltn1-2.fna.fbcdn.net/v/t1.0-9/fr/cp0/e15/q65/50870243_2082218728503949_8476973967112929280_n.jpg?_nc_cat=105&amp;efg=eyJpIjoidCJ9&amp;_nc_oc=AQmK2agdduh027CGBma7YG6bUwAdngthFEYNRjwKNZEzH5vULFY-VAIdw4M4sK9u9QQ&amp;_nc_ht=scontent.fltn1-2.fna&amp;_nc_tp=12&amp;oh=f562984e03626a58d1c274d537f7c63d&amp;oe=5EAAF519</itunes:image>
     </item>
     <item>
       <itunes:author>breakfast</itunes:author>
@@ -71,11 +86,11 @@
       <link>https://m.facebook.com/story.php?story_fbid=2084070561652099&amp;id=162430413816133</link>
       <description>Sun February 3 preaching: breakfast\n</description>
       <guid>2019-02-03.mp3</guid>
-      <enclosure url="http://www.cottenhambaptist.org.uk/Sermons/2019-02-03.mp3" length="00:09:35" type="audio/mpeg">
-      </enclosure>
+      <enclosure url="http://www.cottenhambaptist.org.uk/Sermons/2019-02-03.mp3" length="6625738" type="audio/mpeg" />
       <category>Podcasts</category>
-      <pubDate>2019-02-03 00:00:00Z</pubDate>
+      <pubDate>Sun, 03 Feb 2019 00:02:00 GMT</pubDate>
       <itunes:explicit>false</itunes:explicit>
+      <itunes:duration>00:09:35</itunes:duration>
       <itunes:image>None</itunes:image>
     </item>
     <item>
@@ -84,11 +99,11 @@
       <link>https://m.facebook.com/story.php?story_fbid=2097110137014808&amp;id=162430413816133</link>
       <description>Sun February 10 preaching: Paul Alcombe\n</description>
       <guid>2019-02-10.mp3</guid>
-      <enclosure url="http://www.cottenhambaptist.org.uk/Sermons/2019-02-10.mp3" length="00:22:40" type="audio/mpeg">
-      </enclosure>
+      <enclosure url="http://www.cottenhambaptist.org.uk/Sermons/2019-02-10.mp3" length="15380036" type="audio/mpeg" />
       <category>Podcasts</category>
-      <pubDate>2019-02-10 00:00:00Z</pubDate>
+      <pubDate>Sun, 10 Feb 2019 00:02:00 GMT</pubDate>
       <itunes:explicit>false</itunes:explicit>
+      <itunes:duration>00:22:40</itunes:duration>
       <itunes:image>None</itunes:image>
     </item>
     <item>
@@ -97,12 +112,12 @@
       <link>https://m.facebook.com/story.php?story_fbid=2114376728621482&amp;id=162430413816133</link>
       <description>Sun February 24 preaching: Kate Lees\n</description>
       <guid>2019-02-24.mp3</guid>
-      <enclosure url="http://www.cottenhambaptist.org.uk/Sermons/2019-02-24.mp3" length="00:21:39" type="audio/mpeg">
-      </enclosure>
+      <enclosure url="http://www.cottenhambaptist.org.uk/Sermons/2019-02-24.mp3" length="14457730" type="audio/mpeg" />
       <category>Podcasts</category>
-      <pubDate>2019-02-24 00:00:00Z</pubDate>
+      <pubDate>Sun, 24 Feb 2019 00:02:00 GMT</pubDate>
       <itunes:explicit>false</itunes:explicit>
-      <itunes:image>https://external.fltn1-2.fna.fbcdn.net/safe_image.php?d=AQBiuY7BA7uLbQEO&amp;w=476&amp;h=249&amp;url=https%3A%2F%2Fscontent.fltn1-1.fna.fbcdn.net%2Fv%2Ft1.0-0%2Fcp0%2Fe15%2Fq65%2Fc32.0.574.300a%2Fs480x480%2F49728022_2049033301822492_8466113029908463616_n.jpg%3F_nc_oc%3DAQlBJX1msN1J7NeAul9voxrx43BV4ez0OJWy3BKBlIg4P1WKK-hPgK6wh2eFwdVZRyc%26_nc_ht%3Dscontent.fltn1-1.fna%26oh%3D391b9270781dc35c5d94cd77c5d64e47%26oe%3D5EAA3DE3&amp;cfs=1&amp;_nc_hash=AQAqOA5kvckIJ5V5</itunes:image>
+      <itunes:duration>00:21:39</itunes:duration>
+      <itunes:image>https://external.fltn1-2.fna.fbcdn.net/safe_image.php?d=AQAEwZsxjmGiP0up&amp;w=476&amp;h=249&amp;url=https%3A%2F%2Fscontent.fltn1-1.fna.fbcdn.net%2Fv%2Ft1.0-0%2Fcp0%2Fe15%2Fq65%2Fc32.0.574.300a%2Fs480x480%2F49728022_2049033301822492_8466113029908463616_n.jpg%3F_nc_oc%3DAQlL-vfqgvuTH7zx7OXLEIiEYJe5qKoa1SBTP82jknMeOtA5Iu2ud55AuiSClBB7Hy0%26_nc_ht%3Dscontent.fltn1-1.fna%26oh%3D589ea7a7d641d0add80a0673b1bc5dc0%26oe%3D5EAA3DE3&amp;cfs=1&amp;_nc_hash=AQCU33V5aWzIMDhK</itunes:image>
     </item>
     <item>
       <itunes:author>Steve Whyatt</itunes:author>
@@ -110,12 +125,12 @@
       <link>https://m.facebook.com/story.php?story_fbid=2133457663380055&amp;id=162430413816133</link>
       <description>Sun March 3 preaching: Steve Whyatt\n</description>
       <guid>2019-03-03.mp3</guid>
-      <enclosure url="http://www.cottenhambaptist.org.uk/Sermons/2019-03-03.mp3" length="00:14:32" type="audio/mpeg">
-      </enclosure>
+      <enclosure url="http://www.cottenhambaptist.org.uk/Sermons/2019-03-03.mp3" length="9897216" type="audio/mpeg" />
       <category>Podcasts</category>
-      <pubDate>2019-03-03 00:00:00Z</pubDate>
+      <pubDate>Sun, 03 Mar 2019 00:03:00 GMT</pubDate>
       <itunes:explicit>false</itunes:explicit>
-      <itunes:image>https://scontent.fltn1-1.fna.fbcdn.net/v/t1.0-9/fr/cp0/e15/q65/53046638_2133457636713391_5102691558788956160_n.jpg?_nc_cat=102&amp;efg=eyJpIjoidCJ9&amp;_nc_oc=AQmH3sASaZz5tiYNt8T_jKqJObVek9PJGAFCfbqsKIJwOHqjlcGGGDCbqbB2tt-nyNM&amp;_nc_ht=scontent.fltn1-1.fna&amp;_nc_tp=12&amp;oh=314cc36cd693bba09eda0350cd47462d&amp;oe=5E8FAB26</itunes:image>
+      <itunes:duration>00:14:32</itunes:duration>
+      <itunes:image>https://scontent.fltn1-1.fna.fbcdn.net/v/t1.0-9/fr/cp0/e15/q65/53046638_2133457636713391_5102691558788956160_n.jpg?_nc_cat=102&amp;efg=eyJpIjoidCJ9&amp;_nc_oc=AQkBR65PdMdCzXv-tQreJPFu7avA110t0zpFa4K2TEAUOMo9rHeVsaJT_KItpfUi9Ws&amp;_nc_ht=scontent.fltn1-1.fna&amp;_nc_tp=12&amp;oh=7f226d39f8d5800bf1f9534c409ea7a4&amp;oe=5E8FAB26</itunes:image>
     </item>
     <item>
       <itunes:author>Kate Lees</itunes:author>
@@ -123,11 +138,11 @@
       <link>https://m.facebook.com/story.php?story_fbid=2135849613140860&amp;id=162430413816133</link>
       <description>Sun March 10 preaching: Kate Lees\n</description>
       <guid>2019-03-10.mp3</guid>
-      <enclosure url="http://www.cottenhambaptist.org.uk/Sermons/2019-03-10.mp3" length="00:19:33" type="audio/mpeg">
-      </enclosure>
+      <enclosure url="http://www.cottenhambaptist.org.uk/Sermons/2019-03-10.mp3" length="13162583" type="audio/mpeg" />
       <category>Podcasts</category>
-      <pubDate>2019-03-10 00:00:00Z</pubDate>
+      <pubDate>Sun, 10 Mar 2019 00:03:00 GMT</pubDate>
       <itunes:explicit>false</itunes:explicit>
+      <itunes:duration>00:19:33</itunes:duration>
       <itunes:image>https://external.fltn1-2.fna.fbcdn.net/safe_image.php?d=AQBgO3n9IObO8EHQ&amp;w=476&amp;h=249&amp;url=https%3A%2F%2Fi.ytimg.com%2Fvi%2FoJWkQ9UP_m8%2Fhqdefault.jpg&amp;cfs=1&amp;jq=75&amp;ext=jpg&amp;_nc_hash=AQCuJ1svsWPH5g8V</itunes:image>
     </item>
     <item>
@@ -136,11 +151,11 @@
       <link>https://m.facebook.com/story.php?story_fbid=2146531222072699&amp;id=162430413816133</link>
       <description>Sun March 17 preaching: Kate Lees\n</description>
       <guid>2019-03-17.mp3</guid>
-      <enclosure url="http://www.cottenhambaptist.org.uk/Sermons/2019-03-17.mp3" length="00:18:29" type="audio/mpeg">
-      </enclosure>
+      <enclosure url="http://www.cottenhambaptist.org.uk/Sermons/2019-03-17.mp3" length="12394588" type="audio/mpeg" />
       <category>Podcasts</category>
-      <pubDate>2019-03-17 00:00:00Z</pubDate>
+      <pubDate>Sun, 17 Mar 2019 00:03:00 GMT</pubDate>
       <itunes:explicit>false</itunes:explicit>
+      <itunes:duration>00:18:29</itunes:duration>
       <itunes:image>https://external.fltn1-2.fna.fbcdn.net/safe_image.php?d=AQB9ZaqHTqWj8uNY&amp;w=21&amp;h=21&amp;url=http%3A%2F%2Fwww.cottenhambaptist.org.uk%2Fimages%2Fmap1.png&amp;cfs=1&amp;jq=75&amp;ext=jpg&amp;_nc_hash=AQD7-4qePWSR1uBH</itunes:image>
     </item>
     <item>
@@ -149,12 +164,12 @@
       <link>https://m.facebook.com/story.php?story_fbid=2154257857966702&amp;id=162430413816133</link>
       <description>Sun March 24 preaching: Kate Lees\n</description>
       <guid>2019-03-24.mp3</guid>
-      <enclosure url="http://www.cottenhambaptist.org.uk/Sermons/2019-03-24.mp3" length="00:17:58" type="audio/mpeg">
-      </enclosure>
+      <enclosure url="http://www.cottenhambaptist.org.uk/Sermons/2019-03-24.mp3" length="12091519" type="audio/mpeg" />
       <category>Podcasts</category>
-      <pubDate>2019-03-24 00:00:00Z</pubDate>
+      <pubDate>Sun, 24 Mar 2019 00:03:00 GMT</pubDate>
       <itunes:explicit>false</itunes:explicit>
-      <itunes:image>https://scontent.fltn1-1.fna.fbcdn.net/v/t1.0-9/fr/cp0/e15/q65/54230747_2154257811300040_2897908180862369792_n.jpg?_nc_cat=110&amp;efg=eyJpIjoidCJ9&amp;_nc_oc=AQnPVKAvZwKZQcHrzyu1Jgev3KHGEIbrZXD9lnCDNKSwLn43yOcly3nPDz3k4boMo00&amp;_nc_ht=scontent.fltn1-1.fna&amp;_nc_tp=12&amp;oh=58dff037864e15c7ca5bb9ae8d1641e6&amp;oe=5E9D4C5F</itunes:image>
+      <itunes:duration>00:17:58</itunes:duration>
+      <itunes:image>https://scontent.fltn1-1.fna.fbcdn.net/v/t1.0-9/fr/cp0/e15/q65/54230747_2154257811300040_2897908180862369792_n.jpg?_nc_cat=110&amp;efg=eyJpIjoidCJ9&amp;_nc_oc=AQny-q6aoYs7AxSnYYzvzoPXxf2y6VKuDaXlvlSDuKt7Zil3E9y6-YFGbIUYWEpJMSI&amp;_nc_ht=scontent.fltn1-1.fna&amp;_nc_tp=12&amp;oh=11003e29850306ff24160a31a79f73ed&amp;oe=5E9D4C5F</itunes:image>
     </item>
     <item>
       <itunes:author>Kate Lees</itunes:author>
@@ -162,11 +177,11 @@
       <link>https://m.facebook.com/story.php?story_fbid=2174581425934345&amp;id=162430413816133</link>
       <description>Sun March 31 preaching: Kate Lees\n</description>
       <guid>2019-03-31.mp3</guid>
-      <enclosure url="http://www.cottenhambaptist.org.uk/Sermons/2019-03-31.mp3" length="00:11:24" type="audio/mpeg">
-      </enclosure>
+      <enclosure url="http://www.cottenhambaptist.org.uk/Sermons/2019-03-31.mp3" length="7661443" type="audio/mpeg" />
       <category>Podcasts</category>
-      <pubDate>2019-03-31 00:00:00Z</pubDate>
+      <pubDate>Sun, 31 Mar 2019 00:03:00 GMT</pubDate>
       <itunes:explicit>false</itunes:explicit>
+      <itunes:duration>00:11:24</itunes:duration>
       <itunes:image>https://external.fltn1-2.fna.fbcdn.net/safe_image.php?d=AQDvdGMR47KSucQs&amp;w=476&amp;h=249&amp;url=https%3A%2F%2Fm.media-amazon.com%2Fimages%2FM%2FMV5BOTI4OTNiYzctNDlkZi00NTJkLThlNDgtNzQ5MDljNWRhZTllXkEyXkFqcGdeQXRodW1ibmFpbC1pbml0aWFsaXplcg%40%40._V1_.jpg&amp;cfs=1&amp;jq=75&amp;sx=0&amp;sy=25&amp;sw</itunes:image>
     </item>
     <item>
@@ -175,12 +190,12 @@
       <link>https://m.facebook.com/story.php?story_fbid=2181801055212382&amp;id=162430413816133</link>
       <description>Sun April 7 preaching: Kate Lees\n</description>
       <guid>2019-04-07.mp3</guid>
-      <enclosure url="http://www.cottenhambaptist.org.uk/Sermons/2019-04-07.mp3" length="00:07:03" type="audio/mpeg">
-      </enclosure>
+      <enclosure url="http://www.cottenhambaptist.org.uk/Sermons/2019-04-07.mp3" length="4770705" type="audio/mpeg" />
       <category>Podcasts</category>
-      <pubDate>2019-04-07 00:00:00Z</pubDate>
+      <pubDate>Sun, 07 Apr 2019 00:04:00 GMT</pubDate>
       <itunes:explicit>false</itunes:explicit>
-      <itunes:image>https://scontent.fltn1-1.fna.fbcdn.net/v/t1.0-9/fr/cp0/e15/q65/56232329_2181800798545741_9073341901423247360_n.jpg?_nc_cat=108&amp;efg=eyJpIjoidCJ9&amp;_nc_oc=AQlqdWC_aCvHVQCvjflXhUZUElSOipbX82tPVV36eFQyplK2Bidf8FQcVX4Xbrwsmks&amp;_nc_ht=scontent.fltn1-1.fna&amp;_nc_tp=12&amp;oh=bf26aa3a2329a0d06227fa51c10885ed&amp;oe=5EAD8953</itunes:image>
+      <itunes:duration>00:07:03</itunes:duration>
+      <itunes:image>https://scontent.fltn1-1.fna.fbcdn.net/v/t1.0-9/fr/cp0/e15/q65/56232329_2181800798545741_9073341901423247360_n.jpg?_nc_cat=108&amp;efg=eyJpIjoidCJ9&amp;_nc_oc=AQmWoGsyUh_TjoFBZXD0SUzqLCKuShB8-h3lH87QYaOY_VTnjTjLJLJFwZKZVFDJ41Q&amp;_nc_ht=scontent.fltn1-1.fna&amp;_nc_tp=12&amp;oh=638f45a5a0e6ea94881cf0cec0d2a7d2&amp;oe=5EAD8953</itunes:image>
     </item>
     <item>
       <itunes:author>Mike Alcombe</itunes:author>
@@ -188,11 +203,11 @@
       <link>https://m.facebook.com/story.php?story_fbid=2186305694761918&amp;id=162430413816133</link>
       <description>Sun April 14 preaching: Mike Alcombe\n</description>
       <guid>2019-04-14.mp3</guid>
-      <enclosure url="http://www.cottenhambaptist.org.uk/Sermons/2019-04-14.mp3" length="00:28:11" type="audio/mpeg">
-      </enclosure>
+      <enclosure url="http://www.cottenhambaptist.org.uk/Sermons/2019-04-14.mp3" length="19089436" type="audio/mpeg" />
       <category>Podcasts</category>
-      <pubDate>2019-04-14 00:00:00Z</pubDate>
+      <pubDate>Sun, 14 Apr 2019 00:04:00 GMT</pubDate>
       <itunes:explicit>false</itunes:explicit>
+      <itunes:duration>00:28:11</itunes:duration>
       <itunes:image>https://scontent.fltn1-1.fna.fbcdn.net/v/t1.0-9/fr/cp0/e15/q65/56857737_2186302791428875_4515542157599178752_n.jpg?_nc_cat=108&amp;efg=eyJpIjoidCJ9&amp;_nc_oc=AQmw20xXhZ-QSqOjNumE71KDIQpq60fIbFGcIDNy8c02mQTP9_YTsnz176IyVhP0p2Y&amp;_nc_ht=scontent.fltn1-1.fna&amp;_nc_tp=12&amp;oh=dd3e54a679ee0414187879e07a75be6d&amp;oe=5E9EFEEA</itunes:image>
     </item>
     <item>
@@ -201,12 +216,12 @@
       <link>https://m.facebook.com/story.php?story_fbid=2206530046072816&amp;id=162430413816133</link>
       <description>Sun April 21 preaching: Emma May David Newton\n</description>
       <guid>2019-04-21.mp3</guid>
-      <enclosure url="http://www.cottenhambaptist.org.uk/Sermons/2019-04-21.mp3" length="00:36:18" type="audio/mpeg">
-      </enclosure>
+      <enclosure url="http://www.cottenhambaptist.org.uk/Sermons/2019-04-21.mp3" length="24674635" type="audio/mpeg" />
       <category>Podcasts</category>
-      <pubDate>2019-04-21 00:00:00Z</pubDate>
+      <pubDate>Sun, 21 Apr 2019 00:04:00 GMT</pubDate>
       <itunes:explicit>false</itunes:explicit>
-      <itunes:image>https://scontent.fltn1-2.fna.fbcdn.net/v/t1.0-9/fr/cp0/e15/q65/57382204_2206529319406222_716569899828248576_n.jpg?_nc_cat=103&amp;efg=eyJpIjoidCJ9&amp;_nc_oc=AQlk2qjhC8OvphnqVKbOS0180lSXopGTvIqNjhhK2nDZjI1chaSlEoFcS8fRox4lDdo&amp;_nc_ht=scontent.fltn1-2.fna&amp;_nc_tp=12&amp;oh=5a21749c1a5aeedf49d12a790a135e71&amp;oe=5E9EC0B0</itunes:image>
+      <itunes:duration>00:36:18</itunes:duration>
+      <itunes:image>https://scontent.fltn1-2.fna.fbcdn.net/v/t1.0-9/fr/cp0/e15/q65/57382204_2206529319406222_716569899828248576_n.jpg?_nc_cat=103&amp;efg=eyJpIjoidCJ9&amp;_nc_oc=AQkKRkQn0jhpry6qaic_dCUvohgIkZLhGnrYlPBGR8mG-BIZoGjVhwncADOruW4HN_8&amp;_nc_ht=scontent.fltn1-2.fna&amp;_nc_tp=12&amp;oh=e18c3861d06abfc69e21afb967b9dfd3&amp;oe=5E9EC0B0</itunes:image>
     </item>
     <item>
       <itunes:author>Paul Hill</itunes:author>
@@ -214,12 +229,12 @@
       <link>https://m.facebook.com/story.php?story_fbid=2209050169154137&amp;id=162430413816133</link>
       <description>Sun April 28 preaching: Paul Hill\n</description>
       <guid>2019-04-28.mp3</guid>
-      <enclosure url="http://www.cottenhambaptist.org.uk/Sermons/2019-04-28.mp3" length="00:16:38" type="audio/mpeg">
-      </enclosure>
+      <enclosure url="http://www.cottenhambaptist.org.uk/Sermons/2019-04-28.mp3" length="11444619" type="audio/mpeg" />
       <category>Podcasts</category>
-      <pubDate>2019-04-28 00:00:00Z</pubDate>
+      <pubDate>Sun, 28 Apr 2019 00:04:00 GMT</pubDate>
       <itunes:explicit>false</itunes:explicit>
-      <itunes:image>https://scontent.fltn1-1.fna.fbcdn.net/v/t1.0-9/fr/cp0/e15/q65/58079844_2209045955821225_6850868188859596800_n.jpg?_nc_cat=104&amp;efg=eyJpIjoidCJ9&amp;_nc_oc=AQmXMI1jp42TPoEpDIwKvVJbLrqnPggMVBLt-cEK3ByyvQpA-icK5u3Ilp_lM-SGV6o&amp;_nc_ht=scontent.fltn1-1.fna&amp;_nc_tp=12&amp;oh=9629d8c0460643b0e43423949b26fbac&amp;oe=5EACF813</itunes:image>
+      <itunes:duration>00:16:38</itunes:duration>
+      <itunes:image>https://scontent.fltn1-1.fna.fbcdn.net/v/t1.0-9/fr/cp0/e15/q65/58079844_2209045955821225_6850868188859596800_n.jpg?_nc_cat=104&amp;efg=eyJpIjoidCJ9&amp;_nc_oc=AQnVnCEkkuJPsOcU5P92nbyeVjl_G2xfZSCWW_RlKxMU8i-os3wZj9oqoey5s1lU83Q&amp;_nc_ht=scontent.fltn1-1.fna&amp;_nc_tp=12&amp;oh=4cc6debe4860b883dc1f75a75a9efa46&amp;oe=5EACF813</itunes:image>
     </item>
     <item>
       <itunes:author>Kate Lees</itunes:author>
@@ -227,11 +242,11 @@
       <link>https://m.facebook.com/story.php?story_fbid=2223573161035171&amp;id=162430413816133</link>
       <description>Sun May 5 preaching: Kate Lees\n</description>
       <guid>2019-05-05.mp3</guid>
-      <enclosure url="http://www.cottenhambaptist.org.uk/Sermons/2019-05-05.mp3" length="00:09:18" type="audio/mpeg">
-      </enclosure>
+      <enclosure url="http://www.cottenhambaptist.org.uk/Sermons/2019-05-05.mp3" length="6287226" type="audio/mpeg" />
       <category>Podcasts</category>
-      <pubDate>2019-05-05 00:00:00Z</pubDate>
+      <pubDate>Sun, 05 May 2019 00:05:00 GMT</pubDate>
       <itunes:explicit>false</itunes:explicit>
+      <itunes:duration>00:09:18</itunes:duration>
       <itunes:image>None</itunes:image>
     </item>
     <item>
@@ -240,11 +255,11 @@
       <link>https://m.facebook.com/story.php?story_fbid=2228806593845161&amp;id=162430413816133</link>
       <description>Sun May 12 preaching: Kate Lees\n</description>
       <guid>2019-05-12.mp3</guid>
-      <enclosure url="http://www.cottenhambaptist.org.uk/Sermons/2019-05-12.mp3" length="00:24:52" type="audio/mpeg">
-      </enclosure>
+      <enclosure url="http://www.cottenhambaptist.org.uk/Sermons/2019-05-12.mp3" length="16514724" type="audio/mpeg" />
       <category>Podcasts</category>
-      <pubDate>2019-05-12 00:00:00Z</pubDate>
+      <pubDate>Sun, 12 May 2019 00:05:00 GMT</pubDate>
       <itunes:explicit>false</itunes:explicit>
+      <itunes:duration>00:24:52</itunes:duration>
       <itunes:image>https://external.fltn1-2.fna.fbcdn.net/safe_image.php?d=AQBRsGTt50RkP086&amp;w=476&amp;h=249&amp;url=https%3A%2F%2Fi.ytimg.com%2Fvi%2Fx5N7H2T5Rmw%2Fmaxresdefault.jpg&amp;cfs=1&amp;jq=75&amp;sx=0&amp;sy=17&amp;sw</itunes:image>
     </item>
     <item>
@@ -253,12 +268,12 @@
       <link>https://m.facebook.com/story.php?story_fbid=2252709908121496&amp;id=162430413816133</link>
       <description>Sun May 19 preaching: Kate Lees\n</description>
       <guid>2019-05-19.mp3</guid>
-      <enclosure url="http://www.cottenhambaptist.org.uk/Sermons/2019-05-19.mp3" length="00:17:44" type="audio/mpeg">
-      </enclosure>
+      <enclosure url="http://www.cottenhambaptist.org.uk/Sermons/2019-05-19.mp3" length="11953245" type="audio/mpeg" />
       <category>Podcasts</category>
-      <pubDate>2019-05-19 00:00:00Z</pubDate>
+      <pubDate>Sun, 19 May 2019 00:05:00 GMT</pubDate>
       <itunes:explicit>false</itunes:explicit>
-      <itunes:image>https://scontent.fltn1-2.fna.fbcdn.net/v/t1.0-0/cp0/e15/q65/p75x225/60476262_2271463876439657_5988008099452026880_o.jpg?_nc_cat=106&amp;efg=eyJpIjoidCJ9&amp;_nc_oc=AQlGjKMjnwcFEblIcnYMxiNgm32ysUkjM7PfNfDQA_ZPrBXwrS3P9K_dIGb4vBsXgas&amp;_nc_ht=scontent.fltn1-2.fna&amp;oh=2c53acda24c47ba6e2a978dfe99b673b&amp;oe=5E962C5E</itunes:image>
+      <itunes:duration>00:17:44</itunes:duration>
+      <itunes:image>https://scontent.fltn1-2.fna.fbcdn.net/v/t1.0-0/cp0/e15/q65/p75x225/60476262_2271463876439657_5988008099452026880_o.jpg?_nc_cat=106&amp;efg=eyJpIjoidCJ9&amp;_nc_oc=AQn3-7BzJ1ydStWnG8aSWMcXS11Z1kg52WlLK_wShF4U6PPCmkSu5bLSNFV9JqyoZH8&amp;_nc_ht=scontent.fltn1-2.fna&amp;oh=d45858d110a1bac7981a9def62b3042e&amp;oe=5E962C5E</itunes:image>
     </item>
     <item>
       <itunes:author>Kate Lees</itunes:author>
@@ -266,12 +281,12 @@
       <link>https://m.facebook.com/story.php?story_fbid=2252748921450928&amp;id=162430413816133</link>
       <description>Sun May 26 preaching: Kate Lees\n</description>
       <guid>2019-05-26.mp3</guid>
-      <enclosure url="http://www.cottenhambaptist.org.uk/Sermons/2019-05-26.mp3" length="00:13:24" type="audio/mpeg">
-      </enclosure>
+      <enclosure url="http://www.cottenhambaptist.org.uk/Sermons/2019-05-26.mp3" length="8985526" type="audio/mpeg" />
       <category>Podcasts</category>
-      <pubDate>2019-05-26 00:00:00Z</pubDate>
+      <pubDate>Sun, 26 May 2019 00:05:00 GMT</pubDate>
       <itunes:explicit>false</itunes:explicit>
-      <itunes:image>https://scontent.fltn1-2.fna.fbcdn.net/v/t1.0-9/fr/cp0/e15/q65/60660929_2252746628117824_2677901805429456896_n.jpg?_nc_cat=105&amp;efg=eyJpIjoidCJ9&amp;_nc_oc=AQk0Q1vOxtVcnZCjqevSJEJzE5ceHLOfMPSABHXynmUrZeFzEB2OJ9z8Ce9VFYU4cgU&amp;_nc_ht=scontent.fltn1-2.fna&amp;_nc_tp=12&amp;oh=809bb47c16732ce20c315489752bc28b&amp;oe=5EA1BD7B</itunes:image>
+      <itunes:duration>00:13:24</itunes:duration>
+      <itunes:image>https://scontent.fltn1-2.fna.fbcdn.net/v/t1.0-9/fr/cp0/e15/q65/60660929_2252746628117824_2677901805429456896_n.jpg?_nc_cat=105&amp;efg=eyJpIjoidCJ9&amp;_nc_oc=AQkRMDSFqquSOZKqXE4SzJ0mVSpjtAAHNc1R7jKvt72MuJiUtfDPXVBqNBrwvwYUGEs&amp;_nc_ht=scontent.fltn1-2.fna&amp;_nc_tp=12&amp;oh=ff6790d6a7de6e50a79abe547921ebd2&amp;oe=5EA1BD7B</itunes:image>
     </item>
     <item>
       <itunes:author>Kate Lees</itunes:author>
@@ -279,12 +294,12 @@
       <link>https://m.facebook.com/story.php?story_fbid=2266995880026232&amp;id=162430413816133</link>
       <description>Sun June 2 preaching: Kate Lees\n</description>
       <guid>2019-06-02.mp3</guid>
-      <enclosure url="http://www.cottenhambaptist.org.uk/Sermons/2019-06-02.mp3" length="00:05:54" type="audio/mpeg">
-      </enclosure>
+      <enclosure url="http://www.cottenhambaptist.org.uk/Sermons/2019-06-02.mp3" length="3973788" type="audio/mpeg" />
       <category>Podcasts</category>
-      <pubDate>2019-06-02 00:00:00Z</pubDate>
+      <pubDate>Sun, 02 Jun 2019 00:06:00 GMT</pubDate>
       <itunes:explicit>false</itunes:explicit>
-      <itunes:image>https://external.fltn1-2.fna.fbcdn.net/safe_image.php?d=AQAU4hzrn5lOlS1h&amp;w=476&amp;h=249&amp;url=https%3A%2F%2Fscontent.fltn1-2.fna.fbcdn.net%2Fv%2Ft1.0-0%2Fcp0%2Fe15%2Fq65%2Fc0.71.620.324a%2Fs480x480%2F59633457_2269072370017942_1021732797997383680_n.jpg%3F_nc_oc%3DAQkRx7IIK_keCvU7mwmnawJeQEzSI1y0BwZPE8mgaxDSpDEjWXFIk-_WzwTpauZhnuo%26_nc_ht%3Dscontent.fltn1-2.fna%26oh%3D4f56bf962e959f9a3d0ea4eaa3c25838%26oe%3D5E9F24A3&amp;cfs=1&amp;_nc_hash=AQDo6yqQS9XD2xy-</itunes:image>
+      <itunes:duration>00:05:54</itunes:duration>
+      <itunes:image>https://external.fltn1-2.fna.fbcdn.net/safe_image.php?d=AQAMT5hAhDB9SBiP&amp;w=476&amp;h=249&amp;url=https%3A%2F%2Fscontent.fltn1-2.fna.fbcdn.net%2Fv%2Ft1.0-0%2Fcp0%2Fe15%2Fq65%2Fc0.71.620.324a%2Fs480x480%2F59633457_2269072370017942_1021732797997383680_n.jpg%3F_nc_oc%3DAQnQEK2nYs0pdfvth_aJBBiykN5j9BOIe3TwGpbQNZm87woML6nU4Vp6R6iQhJ9wYOM%26_nc_ht%3Dscontent.fltn1-2.fna%26oh%3Df970482d75f78f260e5eb8aacddfe36f%26oe%3D5E9F24A3&amp;cfs=1&amp;_nc_hash=AQBroXgj3A-WxqUO</itunes:image>
     </item>
     <item>
       <itunes:author>Kate Lees</itunes:author>
@@ -292,12 +307,12 @@
       <link>https://m.facebook.com/story.php?story_fbid=2284259308299889&amp;id=162430413816133</link>
       <description>Sun June 9 preaching: Kate Lees\n</description>
       <guid>2019-06-09.mp3</guid>
-      <enclosure url="http://www.cottenhambaptist.org.uk/Sermons/2019-06-09.mp3" length="00:09:14" type="audio/mpeg">
-      </enclosure>
+      <enclosure url="http://www.cottenhambaptist.org.uk/Sermons/2019-06-09.mp3" length="6195509" type="audio/mpeg" />
       <category>Podcasts</category>
-      <pubDate>2019-06-09 00:00:00Z</pubDate>
+      <pubDate>Sun, 09 Jun 2019 00:06:00 GMT</pubDate>
       <itunes:explicit>false</itunes:explicit>
-      <itunes:image>https://scontent.fltn1-1.fna.fbcdn.net/v/t1.0-9/fr/cp0/e15/q65/62058397_2284256974966789_7437732636149153792_n.jpg?_nc_cat=100&amp;efg=eyJpIjoidCJ9&amp;_nc_oc=AQnV_N-s3DBe_AAg8fSLbq-1eK9kruZVKHe4BVwEjKLJTSqQODSTOC8l9xgjkmtuCp4&amp;_nc_ht=scontent.fltn1-1.fna&amp;_nc_tp=12&amp;oh=764403dcfbc53ac52f8dc7cc7a794cc1&amp;oe=5EB0A608</itunes:image>
+      <itunes:duration>00:09:14</itunes:duration>
+      <itunes:image>https://scontent.fltn1-1.fna.fbcdn.net/v/t1.0-9/fr/cp0/e15/q65/62058397_2284256974966789_7437732636149153792_n.jpg?_nc_cat=100&amp;efg=eyJpIjoidCJ9&amp;_nc_oc=AQkkKGi0C3Wo31YFyxG5OjbjUQ_zVDpmp3oNoGC_6gjR3xAXX_57PDJ_WeJ3oQF9n9M&amp;_nc_ht=scontent.fltn1-1.fna&amp;_nc_tp=12&amp;oh=a48db4c804f02aac6fa992cbacb8668b&amp;oe=5EB0A608</itunes:image>
     </item>
     <item>
       <itunes:author>Pentecost Praise</itunes:author>
@@ -305,11 +320,11 @@
       <link>http://www.cottenhambaptist.org.uk</link>
       <description>Sun June 9 preaching: Pentecost Praise\n</description>
       <guid>2019-06-09PP.mp3</guid>
-      <enclosure url="http://www.cottenhambaptist.org.uk/Sermons/2019-06-09PP.mp3" length="00:22:17" type="audio/mpeg">
-      </enclosure>
+      <enclosure url="http://www.cottenhambaptist.org.uk/Sermons/2019-06-09PP.mp3" length="14839196" type="audio/mpeg" />
       <category>Podcasts</category>
-      <pubDate>2019-06-09 00:00:00Z</pubDate>
+      <pubDate>Sun, 09 Jun 2019 00:06:00 GMT</pubDate>
       <itunes:explicit>false</itunes:explicit>
+      <itunes:duration>00:22:17</itunes:duration>
     </item>
     <item>
       <itunes:author>Kate Lees</itunes:author>
@@ -317,11 +332,11 @@
       <link>https://m.facebook.com/story.php?story_fbid=2298470406878779&amp;id=162430413816133</link>
       <description>Sun June 16 preaching: Kate Lees\n</description>
       <guid>2019-06-16.mp3</guid>
-      <enclosure url="http://www.cottenhambaptist.org.uk/Sermons/2019-06-16.mp3" length="00:18:33" type="audio/mpeg">
-      </enclosure>
+      <enclosure url="http://www.cottenhambaptist.org.uk/Sermons/2019-06-16.mp3" length="12463247" type="audio/mpeg" />
       <category>Podcasts</category>
-      <pubDate>2019-06-16 00:00:00Z</pubDate>
+      <pubDate>Sun, 16 Jun 2019 00:06:00 GMT</pubDate>
       <itunes:explicit>false</itunes:explicit>
+      <itunes:duration>00:18:33</itunes:duration>
       <itunes:image>None</itunes:image>
     </item>
     <item>
@@ -330,12 +345,12 @@
       <link>https://m.facebook.com/story.php?story_fbid=2314688255256994&amp;id=162430413816133</link>
       <description>Sun June 30 preaching: Kate Lees\n</description>
       <guid>2019-06-30.mp3</guid>
-      <enclosure url="http://www.cottenhambaptist.org.uk/Sermons/2019-06-30.mp3" length="00:24:08" type="audio/mpeg">
-      </enclosure>
+      <enclosure url="http://www.cottenhambaptist.org.uk/Sermons/2019-06-30.mp3" length="16402888" type="audio/mpeg" />
       <category>Podcasts</category>
-      <pubDate>2019-06-30 00:00:00Z</pubDate>
+      <pubDate>Sun, 30 Jun 2019 00:06:00 GMT</pubDate>
       <itunes:explicit>false</itunes:explicit>
-      <itunes:image>https://scontent.fltn1-2.fna.fbcdn.net/v/t1.0-9/fr/cp0/e15/q65/65310134_2314683555257464_8404504146408898560_n.jpg?_nc_cat=106&amp;efg=eyJpIjoidCJ9&amp;_nc_oc=AQmRRWQT2V8HMTwk75iFMxqvlwa2xmyIVeiwhAydMyxcajDIsAF4Vs5AepHjqmXG2mc&amp;_nc_ht=scontent.fltn1-2.fna&amp;_nc_tp=12&amp;oh=4b9fd55f02869584c61840bf154e876d&amp;oe=5EA99C31</itunes:image>
+      <itunes:duration>00:24:08</itunes:duration>
+      <itunes:image>https://scontent.fltn1-2.fna.fbcdn.net/v/t1.0-9/fr/cp0/e15/q65/65310134_2314683555257464_8404504146408898560_n.jpg?_nc_cat=106&amp;efg=eyJpIjoidCJ9&amp;_nc_oc=AQm153nNJrJg47PSehxlgiwQsmqIoWuvZQKBZSJsaICMUDJoFB92__xKoMACr6S4npY&amp;_nc_ht=scontent.fltn1-2.fna&amp;_nc_tp=12&amp;oh=1a5a6fa86e4ac04b33c084adea846584&amp;oe=5EA99C31</itunes:image>
     </item>
     <item>
       <itunes:author>Kate Lees</itunes:author>
@@ -343,12 +358,12 @@
       <link>https://m.facebook.com/story.php?story_fbid=2324336830958803&amp;id=162430413816133</link>
       <description>Sun July 7 preaching: Kate Lees\n</description>
       <guid>2019-07-07.mp3</guid>
-      <enclosure url="http://www.cottenhambaptist.org.uk/Sermons/2019-07-07.mp3" length="00:08:49" type="audio/mpeg">
-      </enclosure>
+      <enclosure url="http://www.cottenhambaptist.org.uk/Sermons/2019-07-07.mp3" length="5952513" type="audio/mpeg" />
       <category>Podcasts</category>
-      <pubDate>2019-07-07 00:00:00Z</pubDate>
+      <pubDate>Sun, 07 Jul 2019 00:07:00 GMT</pubDate>
       <itunes:explicit>false</itunes:explicit>
-      <itunes:image>https://scontent.fltn1-1.fna.fbcdn.net/v/t1.0-9/fr/cp0/e15/q65/65492961_2324335767625576_7739034509043040256_n.jpg?_nc_cat=104&amp;efg=eyJpIjoidCJ9&amp;_nc_oc=AQmQMNvNqDHL1XeUSfGFckuB3CL6aAELDgVdj_OZDb3KIHj3Mi0mjWEEwTEhZr8IKd8&amp;_nc_ht=scontent.fltn1-1.fna&amp;_nc_tp=12&amp;oh=cb65b4c292233cec3b951f235e082c56&amp;oe=5E95B3E6</itunes:image>
+      <itunes:duration>00:08:49</itunes:duration>
+      <itunes:image>https://scontent.fltn1-1.fna.fbcdn.net/v/t1.0-9/fr/cp0/e15/q65/65492961_2324335767625576_7739034509043040256_n.jpg?_nc_cat=104&amp;efg=eyJpIjoidCJ9&amp;_nc_oc=AQlU4SRi3jrpOOBJ7TqT7XHqjz1TFivwRQd8h9hfkdM_po5RNb0E0LjPSqDZ4Mwvxzk&amp;_nc_ht=scontent.fltn1-1.fna&amp;_nc_tp=12&amp;oh=4112db0b22415c6d81fae34ff3281a48&amp;oe=5E95B3E6</itunes:image>
     </item>
     <item>
       <itunes:author>Kate Lees</itunes:author>
@@ -356,11 +371,11 @@
       <link>https://m.facebook.com/story.php?story_fbid=2355758037816682&amp;id=162430413816133</link>
       <description>Sun July 21 preaching: Kate Lees\n</description>
       <guid>2019-07-21.mp3</guid>
-      <enclosure url="http://www.cottenhambaptist.org.uk/Sermons/2019-07-21.mp3" length="00:21:26" type="audio/mpeg">
-      </enclosure>
+      <enclosure url="http://www.cottenhambaptist.org.uk/Sermons/2019-07-21.mp3" length="14318626" type="audio/mpeg" />
       <category>Podcasts</category>
-      <pubDate>2019-07-21 00:00:00Z</pubDate>
+      <pubDate>Sun, 21 Jul 2019 00:07:00 GMT</pubDate>
       <itunes:explicit>false</itunes:explicit>
+      <itunes:duration>00:21:26</itunes:duration>
       <itunes:image>None</itunes:image>
     </item>
     <item>
@@ -369,12 +384,12 @@
       <link>https://m.facebook.com/story.php?story_fbid=2363408590384960&amp;id=162430413816133</link>
       <description>Sun July 28 preaching: Kate Lees\n</description>
       <guid>2019-07-28.mp3</guid>
-      <enclosure url="http://www.cottenhambaptist.org.uk/Sermons/2019-07-28.mp3" length="00:12:30" type="audio/mpeg">
-      </enclosure>
+      <enclosure url="http://www.cottenhambaptist.org.uk/Sermons/2019-07-28.mp3" length="8387962" type="audio/mpeg" />
       <category>Podcasts</category>
-      <pubDate>2019-07-28 00:00:00Z</pubDate>
+      <pubDate>Sun, 28 Jul 2019 00:07:00 GMT</pubDate>
       <itunes:explicit>false</itunes:explicit>
-      <itunes:image>https://scontent.fltn1-2.fna.fbcdn.net/v/t1.0-9/fr/cp0/e15/q65/67415661_2363407177051768_1535198788229005312_o.jpg?_nc_cat=106&amp;efg=eyJpIjoidCJ9&amp;_nc_oc=AQlOvHsIAboKL91iX6rTelTwTpU1FpQLQicVvhCqibsuAEjWW7Yyu-L_xdnrQ2eUBtE&amp;_nc_ht=scontent.fltn1-2.fna&amp;_nc_tp=12&amp;oh=94496fffd3e5926771292cc9914886b6&amp;oe=5EAAA690</itunes:image>
+      <itunes:duration>00:12:30</itunes:duration>
+      <itunes:image>https://scontent.fltn1-2.fna.fbcdn.net/v/t1.0-9/fr/cp0/e15/q65/67415661_2363407177051768_1535198788229005312_o.jpg?_nc_cat=106&amp;efg=eyJpIjoidCJ9&amp;_nc_oc=AQm4ACLfIMRytlTfQ6lGl_T5FQwmSXRxiOHgevYyVuWO37yq-NCCwd1uxut-O1NsMVA&amp;_nc_ht=scontent.fltn1-2.fna&amp;_nc_tp=12&amp;oh=111c6355989591abccf411626759dc35&amp;oe=5EAAA690</itunes:image>
     </item>
     <item>
       <itunes:author>Margret Jude</itunes:author>
@@ -382,12 +397,12 @@
       <link>https://m.facebook.com/story.php?story_fbid=2408625935863225&amp;id=162430413816133</link>
       <description>Sun August 18 preaching: Margret Jude\n</description>
       <guid>2019-08-18.mp3</guid>
-      <enclosure url="http://www.cottenhambaptist.org.uk/Sermons/2019-08-18.mp3" length="00:23:09" type="audio/mpeg">
-      </enclosure>
+      <enclosure url="http://www.cottenhambaptist.org.uk/Sermons/2019-08-18.mp3" length="15075871" type="audio/mpeg" />
       <category>Podcasts</category>
-      <pubDate>2019-08-18 00:00:00Z</pubDate>
+      <pubDate>Sun, 18 Aug 2019 00:08:00 GMT</pubDate>
       <itunes:explicit>false</itunes:explicit>
-      <itunes:image>https://scontent.fltn1-2.fna.fbcdn.net/v/t1.0-9/fr/cp0/e15/q65/68537199_2408625889196563_1467301153485094912_n.jpg?_nc_cat=103&amp;efg=eyJpIjoidCJ9&amp;_nc_oc=AQlC-GFKfzb-h_VozkiN__qolY3ESZzBFoDXJXTEcde75CFWFwwvkfnHZbqQJd70AGc&amp;_nc_ht=scontent.fltn1-2.fna&amp;_nc_tp=12&amp;oh=464831819aea1b9815c3eb9b97ab57f8&amp;oe=5EAF0D5C</itunes:image>
+      <itunes:duration>00:23:09</itunes:duration>
+      <itunes:image>https://scontent.fltn1-2.fna.fbcdn.net/v/t1.0-9/fr/cp0/e15/q65/68537199_2408625889196563_1467301153485094912_n.jpg?_nc_cat=103&amp;efg=eyJpIjoidCJ9&amp;_nc_oc=AQmElIWBd0t_EwFzM9pI-vy4GC5vggTyKRvq5jgxxgKP2xE4PBgW6X2bgPcn4FIowcI&amp;_nc_ht=scontent.fltn1-2.fna&amp;_nc_tp=12&amp;oh=f7e5d5c0f4157ebdaea012e1729de363&amp;oe=5EAF0D5C</itunes:image>
     </item>
     <item>
       <itunes:author>Colin Bell</itunes:author>
@@ -395,12 +410,12 @@
       <link>https://m.facebook.com/story.php?story_fbid=2424323047626847&amp;id=162430413816133</link>
       <description>Wed August 28 preaching: Colin Bell\n</description>
       <guid>2019-08-28.mp3</guid>
-      <enclosure url="http://www.cottenhambaptist.org.uk/Sermons/2019-08-28.mp3" length="00:18:27" type="audio/mpeg">
-      </enclosure>
+      <enclosure url="http://www.cottenhambaptist.org.uk/Sermons/2019-08-28.mp3" length="12636182" type="audio/mpeg" />
       <category>Podcasts</category>
-      <pubDate>2019-08-28 00:00:00Z</pubDate>
+      <pubDate>Wed, 28 Aug 2019 00:08:00 GMT</pubDate>
       <itunes:explicit>false</itunes:explicit>
-      <itunes:image>https://scontent.fltn1-2.fna.fbcdn.net/v/t1.0-9/fr/cp0/e15/q65/68932016_2424322400960245_7830412506655883264_n.jpg?_nc_cat=105&amp;efg=eyJpIjoidCJ9&amp;_nc_oc=AQljIZVB72dejVIpUFx_VyV3BeVDy2NxAzHRkVvJFFg1zZbvsZwCTxqeteZyznmuCXM&amp;_nc_ht=scontent.fltn1-2.fna&amp;_nc_tp=12&amp;oh=2bdb343ae5bf077b5240114358afd2e2&amp;oe=5E926EA8</itunes:image>
+      <itunes:duration>00:18:27</itunes:duration>
+      <itunes:image>https://scontent.fltn1-2.fna.fbcdn.net/v/t1.0-9/fr/cp0/e15/q65/68932016_2424322400960245_7830412506655883264_n.jpg?_nc_cat=105&amp;efg=eyJpIjoidCJ9&amp;_nc_oc=AQn4Dq3CteIldiBZGLI50Q-jFY7AVSdOtNBQb3_C2I-39bWtl-dWknfQM8vCljRsF00&amp;_nc_ht=scontent.fltn1-2.fna&amp;_nc_tp=12&amp;oh=8cc7159fdf4d95068dd903850388e163&amp;oe=5E926EA8</itunes:image>
     </item>
     <item>
       <itunes:author>Kate Lees</itunes:author>
@@ -408,11 +423,11 @@
       <link>https://m.facebook.com/story.php?story_fbid=2428592087199943&amp;id=162430413816133</link>
       <description>Sun September 1 preaching: Kate Lees\n</description>
       <guid>2019-09-01.mp3</guid>
-      <enclosure url="http://www.cottenhambaptist.org.uk/Sermons/2019-09-01.mp3" length="00:04:51" type="audio/mpeg">
-      </enclosure>
+      <enclosure url="http://www.cottenhambaptist.org.uk/Sermons/2019-09-01.mp3" length="3256219" type="audio/mpeg" />
       <category>Podcasts</category>
-      <pubDate>2019-09-01 00:00:00Z</pubDate>
+      <pubDate>Sun, 01 Sep 2019 00:09:00 GMT</pubDate>
       <itunes:explicit>false</itunes:explicit>
+      <itunes:duration>00:04:51</itunes:duration>
       <itunes:image>https://scontent.fltn1-1.fna.fbcdn.net/v/t1.0-9/fr/cp0/e15/q65/69591176_2428592053866613_3760380198499909632_n.jpg?_nc_cat=108&amp;efg=eyJpIjoidCJ9&amp;_nc_oc=AQmfMgDZd25VC3c0m3ft4WnmY7q-V87OVHWUaZwYXqaL7MHaTqm0xp0AjOt3gt2KjWs&amp;_nc_ht=scontent.fltn1-1.fna&amp;_nc_tp=12&amp;oh=bfcdd7a714d6702c43f8d29ba2f92db6&amp;oe=5EB07A6B</itunes:image>
     </item>
     <item>
@@ -421,24 +436,24 @@
       <link>https://m.facebook.com/story.php?story_fbid=2434167276642424&amp;id=162430413816133</link>
       <description>Sun September 8 preaching: Kate Lees\n</description>
       <guid>2019-09-08.mp3</guid>
-      <enclosure url="http://www.cottenhambaptist.org.uk/Sermons/2019-09-08.mp3" length="00:18:15" type="audio/mpeg">
-      </enclosure>
+      <enclosure url="http://www.cottenhambaptist.org.uk/Sermons/2019-09-08.mp3" length="12297118" type="audio/mpeg" />
       <category>Podcasts</category>
-      <pubDate>2019-09-08 00:00:00Z</pubDate>
+      <pubDate>Sun, 08 Sep 2019 00:09:00 GMT</pubDate>
       <itunes:explicit>false</itunes:explicit>
-      <itunes:image>https://scontent.fltn1-1.fna.fbcdn.net/v/t1.0-9/fr/cp0/e15/q65/69485130_2434161286643023_1302294552991760384_n.jpg?_nc_cat=104&amp;efg=eyJpIjoidCJ9&amp;_nc_oc=AQkm0axiOkAwy4jl-lOO74mIMwT8O8SOozJkTT0LFZFkisMNFNPE1EGmF6AgKyc_Mms&amp;_nc_ht=scontent.fltn1-1.fna&amp;_nc_tp=12&amp;oh=58e4b8899842cb3e9693a306ef2265c8&amp;oe=5E99B631</itunes:image>
+      <itunes:duration>00:18:15</itunes:duration>
+      <itunes:image>https://scontent.fltn1-1.fna.fbcdn.net/v/t1.0-9/fr/cp0/e15/q65/69485130_2434161286643023_1302294552991760384_n.jpg?_nc_cat=104&amp;efg=eyJpIjoidCJ9&amp;_nc_oc=AQmUW2NRRXxVFI3g_Ifrq-Pgi9Z5aF1jxJG_zCdEFglObLbv2l1biOIwZPuVoG0K59E&amp;_nc_ht=scontent.fltn1-1.fna&amp;_nc_tp=12&amp;oh=383dd6519074d276b7b9ccea08344a43&amp;oe=5E99B631</itunes:image>
     </item>
     <item>
       <itunes:author>Kate Lees</itunes:author>
       <title>Sun September 15 preaching: Kate Lees</title>
-      <link>https://m.facebook.com/story.php?story_fbid=2447775271948291&amp;id=162430413816133</link>
+      <link>https://m.facebook.com/story.php?story_fbid=2397110470553247&amp;id=1934448226819476</link>
       <description>Sun September 15 preaching: Kate Lees\n</description>
       <guid>2019-09-15.mp3</guid>
-      <enclosure url="http://www.cottenhambaptist.org.uk/Sermons/2019-09-15.mp3" length="00:21:12" type="audio/mpeg">
-      </enclosure>
+      <enclosure url="http://www.cottenhambaptist.org.uk/Sermons/2019-09-15.mp3" length="14220839" type="audio/mpeg" />
       <category>Podcasts</category>
-      <pubDate>2019-09-15 00:00:00Z</pubDate>
+      <pubDate>Sun, 15 Sep 2019 00:09:00 GMT</pubDate>
       <itunes:explicit>false</itunes:explicit>
+      <itunes:duration>00:21:12</itunes:duration>
       <itunes:image>None</itunes:image>
     </item>
     <item>
@@ -447,12 +462,12 @@
       <link>https://m.facebook.com/story.php?story_fbid=2467555806636904&amp;id=162430413816133</link>
       <description>Sun September 22 preaching: Kate Lees\n</description>
       <guid>2019-09-22.mp3</guid>
-      <enclosure url="http://www.cottenhambaptist.org.uk/Sermons/2019-09-22.mp3" length="00:22:54" type="audio/mpeg">
-      </enclosure>
+      <enclosure url="http://www.cottenhambaptist.org.uk/Sermons/2019-09-22.mp3" length="15227931" type="audio/mpeg" />
       <category>Podcasts</category>
-      <pubDate>2019-09-22 00:00:00Z</pubDate>
+      <pubDate>Sun, 22 Sep 2019 00:09:00 GMT</pubDate>
       <itunes:explicit>false</itunes:explicit>
-      <itunes:image>https://scontent.fltn1-1.fna.fbcdn.net/v/t1.0-9/fr/cp0/e15/q65/70448367_2467552383303913_860601799898300416_n.jpg?_nc_cat=100&amp;efg=eyJpIjoidCJ9&amp;_nc_oc=AQkvJYdiP9tS29U3T40ChxvsRh4cR1wD-tejVWwKddQH8MBxjkFfHr8a3htRrAFuIhg&amp;_nc_ht=scontent.fltn1-1.fna&amp;_nc_tp=12&amp;oh=1d684d5e78e777f2ac645777755e295d&amp;oe=5EB437BC</itunes:image>
+      <itunes:duration>00:22:54</itunes:duration>
+      <itunes:image>https://scontent.fltn1-1.fna.fbcdn.net/v/t1.0-9/fr/cp0/e15/q65/70448367_2467552383303913_860601799898300416_n.jpg?_nc_cat=100&amp;efg=eyJpIjoidCJ9&amp;_nc_oc=AQmh1ILutOjxTiblJrTXIK5KKSeMMjd_WVWRyJTqDHtRizMkOjgLVzuQpFab7tq9gAg&amp;_nc_ht=scontent.fltn1-1.fna&amp;_nc_tp=12&amp;oh=265c04175e52016264d9620a02f2cc03&amp;oe=5EDBC4BC</itunes:image>
     </item>
     <item>
       <itunes:author>Kate Lees+Emmay May</itunes:author>
@@ -460,11 +475,11 @@
       <link>https://m.facebook.com/story.php?story_fbid=2472180996174385&amp;id=162430413816133</link>
       <description>Sun September 29 preaching: Kate Lees+Emmay May\n</description>
       <guid>2019-09-29.mp3</guid>
-      <enclosure url="http://www.cottenhambaptist.org.uk/Sermons/2019-09-29.mp3" length="00:31:47" type="audio/mpeg">
-      </enclosure>
+      <enclosure url="http://www.cottenhambaptist.org.uk/Sermons/2019-09-29.mp3" length="21441075" type="audio/mpeg" />
       <category>Podcasts</category>
-      <pubDate>2019-09-29 00:00:00Z</pubDate>
+      <pubDate>Sun, 29 Sep 2019 00:09:00 GMT</pubDate>
       <itunes:explicit>false</itunes:explicit>
+      <itunes:duration>00:31:47</itunes:duration>
       <itunes:image>None</itunes:image>
     </item>
     <item>
@@ -473,11 +488,11 @@
       <link>https://m.facebook.com/story.php?story_fbid=2486971858028632&amp;id=162430413816133</link>
       <description>Sun October 6 preaching: Kate Lees\n</description>
       <guid>2019-10-06.mp3</guid>
-      <enclosure url="http://www.cottenhambaptist.org.uk/Sermons/2019-10-06.mp3" length="00:09:16" type="audio/mpeg">
-      </enclosure>
+      <enclosure url="http://www.cottenhambaptist.org.uk/Sermons/2019-10-06.mp3" length="6579915" type="audio/mpeg" />
       <category>Podcasts</category>
-      <pubDate>2019-10-06 00:00:00Z</pubDate>
+      <pubDate>Sun, 06 Oct 2019 00:10:00 GMT</pubDate>
       <itunes:explicit>false</itunes:explicit>
+      <itunes:duration>00:09:16</itunes:duration>
       <itunes:image>https://scontent.fltn1-1.fna.fbcdn.net/v/t1.0-9/fr/cp0/e15/q65/71168469_2486965274695957_5305400589092388864_n.jpg?_nc_cat=111&amp;efg=eyJpIjoidCJ9&amp;_nc_oc=AQkIYZ6WDP5RijQAyzXMWU0ZAfD1PBtwhiVu2-bA4B9JJhjQDg09bAVILy9avaLFw8g&amp;_nc_ht=scontent.fltn1-1.fna&amp;_nc_tp=12&amp;oh=f87fb5c5502cbc6300dba01e5c8bd83e&amp;oe=5EAE485A</itunes:image>
     </item>
     <item>
@@ -486,11 +501,11 @@
       <link>https://m.facebook.com/story.php?story_fbid=2500462130012938&amp;id=162430413816133</link>
       <description>Sun October 13 preaching: Kate Lees\n</description>
       <guid>2019-10-13.mp3</guid>
-      <enclosure url="http://www.cottenhambaptist.org.uk/Sermons/2019-10-13.mp3" length="00:19:01" type="audio/mpeg">
-      </enclosure>
+      <enclosure url="http://www.cottenhambaptist.org.uk/Sermons/2019-10-13.mp3" length="12790172" type="audio/mpeg" />
       <category>Podcasts</category>
-      <pubDate>2019-10-13 00:00:00Z</pubDate>
+      <pubDate>Sun, 13 Oct 2019 00:10:00 GMT</pubDate>
       <itunes:explicit>false</itunes:explicit>
+      <itunes:duration>00:19:01</itunes:duration>
       <itunes:image>None</itunes:image>
     </item>
     <item>
@@ -499,12 +514,12 @@
       <link>https://m.facebook.com/story.php?story_fbid=2529169803808837&amp;id=162430413816133</link>
       <description>Sun October 20 preaching: Kate Lees\n</description>
       <guid>2019-10-20.mp3</guid>
-      <enclosure url="http://www.cottenhambaptist.org.uk/Sermons/2019-10-20.mp3" length="00:14:16" type="audio/mpeg">
-      </enclosure>
+      <enclosure url="http://www.cottenhambaptist.org.uk/Sermons/2019-10-20.mp3" length="9650532" type="audio/mpeg" />
       <category>Podcasts</category>
-      <pubDate>2019-10-20 00:00:00Z</pubDate>
+      <pubDate>Sun, 20 Oct 2019 00:10:00 GMT</pubDate>
       <itunes:explicit>false</itunes:explicit>
-      <itunes:image>https://scontent.fltn1-2.fna.fbcdn.net/v/t1.0-9/fr/cp0/e15/q65/72999000_2529164013809416_5607477759417778176_n.jpg?_nc_cat=101&amp;efg=eyJpIjoidCJ9&amp;_nc_oc=AQl7SBO8Z0MvB52_f94YNCXXu0Mt249xIFpApqojyTAcFiyJIU-pAMxM59ozZuHTEdE&amp;_nc_ht=scontent.fltn1-2.fna&amp;_nc_tp=12&amp;oh=bc7e31395047166321082d2a698f4a62&amp;oe=5E9D62BA</itunes:image>
+      <itunes:duration>00:14:16</itunes:duration>
+      <itunes:image>https://scontent.fltn1-2.fna.fbcdn.net/v/t1.0-9/fr/cp0/e15/q65/72999000_2529164013809416_5607477759417778176_n.jpg?_nc_cat=101&amp;efg=eyJpIjoidCJ9&amp;_nc_oc=AQkQwv3bFhPk4nhPJKLEPkVw2wJ1Qf58LloQjI-s_XM5Qn4xtqkkmMcDZowlS3WN-\-\M&amp;_nc_ht=scontent.fltn1-2.fna&amp;_nc_tp=12&amp;oh=a1dc60396a47bac8093cfacdf6ff04e8&amp;oe=5E9D62BA</itunes:image>
     </item>
     <item>
       <itunes:author>Kate Lees</itunes:author>
@@ -512,12 +527,12 @@
       <link>https://m.facebook.com/story.php?story_fbid=2551517834907367&amp;id=162430413816133</link>
       <description>Sun November 3 preaching: Kate Lees\n</description>
       <guid>2019-11-03.mp3</guid>
-      <enclosure url="http://www.cottenhambaptist.org.uk/Sermons/2019-11-03.mp3" length="00:06:59" type="audio/mpeg">
-      </enclosure>
+      <enclosure url="http://www.cottenhambaptist.org.uk/Sermons/2019-11-03.mp3" length="4791826" type="audio/mpeg" />
       <category>Podcasts</category>
-      <pubDate>2019-11-03 00:00:00Z</pubDate>
+      <pubDate>Sun, 03 Nov 2019 00:11:00 GMT</pubDate>
       <itunes:explicit>false</itunes:explicit>
-      <itunes:image>https://external.fltn1-2.fna.fbcdn.net/safe_image.php?d=AQB4zYYGwjG20g_w&amp;w=476&amp;h=249&amp;url=https%3A%2F%2Fscontent.fltn1-2.fna.fbcdn.net%2Fv%2Ft1.0-9%2Fcp0%2Fe15%2Fq65%2Fc0.106.470.246a%2F72667617_2506429726082845_5002601915800879104_n.jpg%3F_nc_oc%3DAQm5nONimGglT9d4BhNl44FsrpJ6Jzbosxv3y12MbOgv-_bKL-hiMETcyHdK6gn77qE%26_nc_ht%3Dscontent.fltn1-2.fna%26oh%3D96143c6e336d07e583aefc8a00719fee%26oe%3D5E96ED90&amp;cfs=1&amp;_nc_hash=AQD0zYNyx1FEp2pd</itunes:image>
+      <itunes:duration>00:06:59</itunes:duration>
+      <itunes:image>https://external.fltn1-2.fna.fbcdn.net/safe_image.php?d=AQDVHvaHKLuDrdVf&amp;w=476&amp;h=249&amp;url=https%3A%2F%2Fscontent.fltn1-2.fna.fbcdn.net%2Fv%2Ft1.0-9%2Fcp0%2Fe15%2Fq65%2Fc0.106.470.246a%2F72667617_2506429726082845_5002601915800879104_n.jpg%3F_nc_oc%3DAQnvwVwlEhSD7OiLFO6QotMMM_4Kd_WEHLz6ac0ra8R_BtMb5iwfT3pykHO1pWtOD5M%26_nc_ht%3Dscontent.fltn1-2.fna%26oh%3Da7c84f80c34ba737009e94b0b9088178%26oe%3D5E96ED90&amp;cfs=1&amp;_nc_hash=AQBBeTKeht8ZC5xX</itunes:image>
     </item>
     <item>
       <itunes:author>Kate Lees</itunes:author>
@@ -525,11 +540,11 @@
       <link>https://m.facebook.com/story.php?story_fbid=2583356898390127&amp;id=162430413816133</link>
       <description>Sun November 17 preaching: Kate Lees\n</description>
       <guid>2019-11-17.mp3</guid>
-      <enclosure url="http://www.cottenhambaptist.org.uk/Sermons/2019-11-17.mp3" length="00:27:30" type="audio/mpeg">
-      </enclosure>
+      <enclosure url="http://www.cottenhambaptist.org.uk/Sermons/2019-11-17.mp3" length="18478887" type="audio/mpeg" />
       <category>Podcasts</category>
-      <pubDate>2019-11-17 00:00:00Z</pubDate>
+      <pubDate>Sun, 17 Nov 2019 00:11:00 GMT</pubDate>
       <itunes:explicit>false</itunes:explicit>
+      <itunes:duration>00:27:30</itunes:duration>
       <itunes:image>https://scontent.fltn1-1.fna.fbcdn.net/v/t1.0-9/fr/cp0/e15/q65/75407636_2583351681723982_3042668215328047104_n.jpg?_nc_cat=110&amp;efg=eyJpIjoidCJ9&amp;_nc_oc=AQmLOcjw6vtS5IjQtiyTzZNVUH-L7GcQjU6rx8uPXhoEIsUbOp5VvaTzNPGUXlZOZ-4&amp;_nc_ht=scontent.fltn1-1.fna&amp;_nc_tp=12&amp;oh=aae1827579f60b678c08c07ad77b2619&amp;oe=5EA666E9</itunes:image>
     </item>
     <item>
@@ -538,12 +553,12 @@
       <link>https://m.facebook.com/story.php?story_fbid=2598311770227973&amp;id=162430413816133</link>
       <description>Sun November 24 preaching: Collin Bell\n</description>
       <guid>2019-11-24.mp3</guid>
-      <enclosure url="http://www.cottenhambaptist.org.uk/Sermons/2019-11-24.mp3" length="00:31:50" type="audio/mpeg">
-      </enclosure>
+      <enclosure url="http://www.cottenhambaptist.org.uk/Sermons/2019-11-24.mp3" length="21688849" type="audio/mpeg" />
       <category>Podcasts</category>
-      <pubDate>2019-11-24 00:00:00Z</pubDate>
+      <pubDate>Sun, 24 Nov 2019 00:11:00 GMT</pubDate>
       <itunes:explicit>false</itunes:explicit>
-      <itunes:image>https://external.fltn1-2.fna.fbcdn.net/safe_image.php?d=AQB4_C6MLOuTEJjt&amp;w=476&amp;h=249&amp;url=https%3A%2F%2Fscontent.fltn1-2.fna.fbcdn.net%2Fv%2Ft1.0-0%2Fcp0%2Fe15%2Fq65%2Fc184.0.592.310a%2Fs480x480%2F74900213_2571145162944634_3619688881043013632_n.jpg%3F_nc_oc%3DAQmoywDjLHpG1FofQZFOTWSsWhb8L1am2kEihTbsdcqZpt7djuHwTc7O3HSZsWGXKF4%26_nc_ht%3Dscontent.fltn1-2.fna%26oh%3Ddb009eeaee214d42154f43cd9e757efa%26oe%3D5E958476&amp;cfs=1&amp;_nc_hash=AQD1799TYGHe3mZp</itunes:image>
+      <itunes:duration>00:31:50</itunes:duration>
+      <itunes:image>https://external.fltn1-2.fna.fbcdn.net/safe_image.php?d=AQBFs2mS31ZpdeoU&amp;w=476&amp;h=249&amp;url=https%3A%2F%2Fscontent.fltn1-2.fna.fbcdn.net%2Fv%2Ft1.0-0%2Fcp0%2Fe15%2Fq65%2Fc184.0.592.310a%2Fs480x480%2F74900213_2571145162944634_3619688881043013632_n.jpg%3F_nc_oc%3DAQljoZwDVdMg0TEgOrFEWMOF9wVSlKNQlUBjgJI7Y7tkgf24Hh1V0O8Qipg28Ifv3ic%26_nc_ht%3Dscontent.fltn1-2.fna%26oh%3D08599e5a10eb068a77f18c37ba144aad%26oe%3D5E958476&amp;cfs=1&amp;_nc_hash=AQALPyEeL-zdfhgZ</itunes:image>
     </item>
     <item>
       <itunes:author>Kate Lees</itunes:author>
@@ -551,12 +566,12 @@
       <link>https://m.facebook.com/story.php?story_fbid=2618104371582046&amp;id=162430413816133</link>
       <description>Sun December 1 preaching: Kate Lees\n</description>
       <guid>2019-12-01.mp3</guid>
-      <enclosure url="http://www.cottenhambaptist.org.uk/Sermons/2019-12-01.mp3" length="00:08:35" type="audio/mpeg">
-      </enclosure>
+      <enclosure url="http://www.cottenhambaptist.org.uk/Sermons/2019-12-01.mp3" length="5760394" type="audio/mpeg" />
       <category>Podcasts</category>
-      <pubDate>2019-12-01 00:00:00Z</pubDate>
+      <pubDate>Sun, 01 Dec 2019 00:12:00 GMT</pubDate>
       <itunes:explicit>false</itunes:explicit>
-      <itunes:image>https://scontent.fltn1-2.fna.fbcdn.net/v/t1.0-9/fr/cp0/e15/q65/78286358_2618104298248720_2200124687030157312_n.jpg?_nc_cat=103&amp;efg=eyJpIjoidCJ9&amp;_nc_oc=AQmIjlSbVfm1DmcIjSl0iyQQMZ5PGT1PNvRLiL8qIknOZDhY59OjaJaYa1uTmGtzjMU&amp;_nc_ht=scontent.fltn1-2.fna&amp;_nc_tp=12&amp;oh=7ab4e6a6767a814aa7f6a8a8a4699df5&amp;oe=5EA48950</itunes:image>
+      <itunes:duration>00:08:35</itunes:duration>
+      <itunes:image>https://scontent.fltn1-2.fna.fbcdn.net/v/t1.0-9/fr/cp0/e15/q65/78286358_2618104298248720_2200124687030157312_n.jpg?_nc_cat=103&amp;efg=eyJpIjoidCJ9&amp;_nc_oc=AQnYUxpqI_BMCe_OsZll8JZ3idB3RcJjyH61QzN7brSl9vnk982griKkcfubSmuaLyQ&amp;_nc_ht=scontent.fltn1-2.fna&amp;_nc_tp=12&amp;oh=6347edaf52c1d61c8ab2921c4ad1d49a&amp;oe=5EA48950</itunes:image>
     </item>
     <item>
       <itunes:author>Beth Rowney</itunes:author>
@@ -564,11 +579,11 @@
       <link>https://m.facebook.com/story.php?story_fbid=2635867826472367&amp;id=162430413816133</link>
       <description>Sun December 8 preaching: Beth Rowney\n</description>
       <guid>2019-12-08.mp3</guid>
-      <enclosure url="http://www.cottenhambaptist.org.uk/Sermons/2019-12-08.mp3" length="00:29:25" type="audio/mpeg">
-      </enclosure>
+      <enclosure url="http://www.cottenhambaptist.org.uk/Sermons/2019-12-08.mp3" length="19612679" type="audio/mpeg" />
       <category>Podcasts</category>
-      <pubDate>2019-12-08 00:00:00Z</pubDate>
+      <pubDate>Sun, 08 Dec 2019 00:12:00 GMT</pubDate>
       <itunes:explicit>false</itunes:explicit>
+      <itunes:duration>00:29:25</itunes:duration>
       <itunes:image>https://external.fltn1-2.fna.fbcdn.net/safe_image.php?d=AQCoOwcdytDSmGAS&amp;w=476&amp;h=249&amp;url=https%3A%2F%2Fwww.easternbaptist.org.uk%2Fwp-content%2Fuploads%2F2017%2F09%2FBeth.jpg&amp;cfs=1&amp;jq=75&amp;sx=0&amp;sy=213&amp;sw</itunes:image>
     </item>
     <item>
@@ -577,12 +592,12 @@
       <link>https://m.facebook.com/story.php?story_fbid=2638653656193784&amp;id=162430413816133</link>
       <description>Sun December 15 preaching: Kate Lees\n</description>
       <guid>2019-12-15.mp3</guid>
-      <enclosure url="http://www.cottenhambaptist.org.uk/Sermons/2019-12-15.mp3" length="00:21:51" type="audio/mpeg">
-      </enclosure>
+      <enclosure url="http://www.cottenhambaptist.org.uk/Sermons/2019-12-15.mp3" length="14751700" type="audio/mpeg" />
       <category>Podcasts</category>
-      <pubDate>2019-12-15 00:00:00Z</pubDate>
+      <pubDate>Sun, 15 Dec 2019 00:12:00 GMT</pubDate>
       <itunes:explicit>false</itunes:explicit>
-      <itunes:image>https://scontent.fltn1-1.fna.fbcdn.net/v/t1.0-9/fr/cp0/e15/q65/80353655_2638650659527417_1496838601357393920_n.jpg?_nc_cat=110&amp;efg=eyJpIjoidCJ9&amp;_nc_oc=AQkQJyZe6aIPDKC9oO2zghw5j-kd3ETvvy4uFwE5Xo6P0bk0jH7iM3jjWmZU5btqZhE&amp;_nc_ht=scontent.fltn1-1.fna&amp;_nc_tp=12&amp;oh=a775012f608446c1985c9f92af5b92e4&amp;oe=5E9F9E3A</itunes:image>
+      <itunes:duration>00:21:51</itunes:duration>
+      <itunes:image>https://scontent.fltn1-1.fna.fbcdn.net/v/t1.0-9/fr/cp0/e15/q65/80353655_2638650659527417_1496838601357393920_n.jpg?_nc_cat=110&amp;efg=eyJpIjoidCJ9&amp;_nc_oc=AQnD3y6s-wuEZ2FpHsrm2AeYcbuHZS74TlDNuPQPsYG4TE0z4eJIt7cQwO-xC3DlQ-k&amp;_nc_ht=scontent.fltn1-1.fna&amp;_nc_tp=12&amp;oh=7ab2676ebd9c11d6a4c311cef9350c0c&amp;oe=5E9F9E3A</itunes:image>
     </item>
     <item>
       <itunes:author>David,Kate,PaulaN,Steve</itunes:author>
@@ -590,12 +605,12 @@
       <link>https://m.facebook.com/story.php?story_fbid=2659988294060320&amp;id=162430413816133</link>
       <description>Thu December 19 preaching: David,Kate,PaulaN,Steve\n</description>
       <guid>2019-12-19.mp3</guid>
-      <enclosure url="http://www.cottenhambaptist.org.uk/Sermons/2019-12-19.mp3" length="00:22:24" type="audio/mpeg">
-      </enclosure>
+      <enclosure url="http://www.cottenhambaptist.org.uk/Sermons/2019-12-19.mp3" length="15148342" type="audio/mpeg" />
       <category>Podcasts</category>
-      <pubDate>2019-12-19 00:00:00Z</pubDate>
+      <pubDate>Thu, 19 Dec 2019 00:12:00 GMT</pubDate>
       <itunes:explicit>false</itunes:explicit>
-      <itunes:image>https://scontent.fltn1-2.fna.fbcdn.net/v/t1.0-9/fr/cp0/e15/q65/79878793_2659985327393950_8001150062400897024_n.jpg?_nc_cat=105&amp;efg=eyJpIjoidCJ9&amp;_nc_oc=AQmMEf_TdnWjD24JbcJI8Y5YNmJ1RjHU4ckBWm3SVc913BlC-5I5dY7tT_Rt5_2IOKM&amp;_nc_ht=scontent.fltn1-2.fna&amp;_nc_tp=12&amp;oh=2e6aa040e51c9d08e265103df57de26b&amp;oe=5E99457B</itunes:image>
+      <itunes:duration>00:22:24</itunes:duration>
+      <itunes:image>https://scontent.fltn1-2.fna.fbcdn.net/v/t1.0-9/fr/cp0/e15/q65/79878793_2659985327393950_8001150062400897024_n.jpg?_nc_cat=105&amp;efg=eyJpIjoidCJ9&amp;_nc_oc=AQkXFe_K6nfhXpqvpi_0ugFHdrE1F_3MmqUIDrNPzhS8uND5mep7zxx6g4HUs3NVHmE&amp;_nc_ht=scontent.fltn1-2.fna&amp;_nc_tp=12&amp;oh=37187aa8260846e367110b77cc8eac8c&amp;oe=5E99457B</itunes:image>
     </item>
   </channel>
 </rss>

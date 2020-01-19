@@ -1,4 +1,29 @@
-﻿Function Get-MP3MetaData
+﻿Function Get-ShellApplication($path)
+{
+	$shell = New-Object -ComObject "Shell.Application"
+	$shell.NameSpace($path)
+}
+
+Function Get-MP3FileMetaData($ObjDir , $File)
+{
+   $ObjFile = $ObjDir.parsename($File.Name)
+	$MetaData = @{}
+	$MP3 = ($ObjDir.Items()|?{$_.path -like "*.mp3" -or $_.path -like "*.mp4"})
+	$PropertyArray = 0,1,2,12,13,14,15,16,17,18,19,20,21,22,27,28,36,220,223
+
+	Foreach($item in $PropertyArray)
+	{ 
+		If($ObjDir.GetDetailsOf($ObjFile, $item)) #To avoid empty values
+		{
+			$MetaData[$($ObjDir.GetDetailsOf($MP3,$item))] = $ObjDir.GetDetailsOf($ObjFile, $item)
+		}
+	 
+	}
+
+	New-Object psobject -Property $MetaData |select *, @{n="Directory";e={$Dir}}, @{n="Fullname";e={Join-Path $Dir $File.Name -Resolve}}, @{n="Extension";e={$File.Extension}}
+}
+
+Function Get-MP3MetaData
 {
     [CmdletBinding()]
     [Alias()]
@@ -22,21 +47,7 @@
 
             Foreach($File in $Files)
             {
-                $ObjFile = $ObjDir.parsename($File.Name)
-                $MetaData = @{}
-                $MP3 = ($ObjDir.Items()|?{$_.path -like "*.mp3" -or $_.path -like "*.mp4"})
-                $PropertyArray = 0,1,2,12,13,14,15,16,17,18,19,20,21,22,27,28,36,220,223
-            
-                Foreach($item in $PropertyArray)
-                { 
-                    If($ObjDir.GetDetailsOf($ObjFile, $item)) #To avoid empty values
-                    {
-                        $MetaData[$($ObjDir.GetDetailsOf($MP3,$item))] = $ObjDir.GetDetailsOf($ObjFile, $item)
-                    }
-                 
-                }
-            
-                New-Object psobject -Property $MetaData |select *, @{n="Directory";e={$Dir}}, @{n="Fullname";e={Join-Path $Dir $File.Name -Resolve}}, @{n="Extension";e={$File.Extension}}
+				Get-MP3FileMetaData $ObjDir $File
             }
         }
     }
@@ -45,15 +56,3 @@
     }
 }
 
-#ForEach($item in ("C:\Data\Powershell\Tutorials\1_Basics\" |Get-MP3MetaData)){
-#    $Source = $item.Fullname
-#    $Album = $item.Album
-#    Set-Location C:\Music
-#    If(-not (gci | ?{$_.name -eq "$Album" -and $_.PSisContainer}))
-#    {
-#        New-Item -Name $Album -ItemType Directory -Force |Out-Null
-#    }
-#
-#    $destination = "C:\Music\$album"
-#    Move-Item -Path  $Source -Destination $destination -Force -Verbose
-#}

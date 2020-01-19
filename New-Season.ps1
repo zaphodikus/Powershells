@@ -3,13 +3,27 @@
 #           https://www.petri.com/creating-custom-xml-net-powershell
 #           https://gist.github.com/arebee/a7a77044c77443effaeddbe3730af4ad
 [Cmdletbinding()]
-Param($season_year = "2019")
+Param($season_year = "2020")
 $Erroractionpreference = 'Stop'
 
 $url_base = (gc '_url_Sermons.txt') # 'http://www.cottenhambaptist.org.uk/Sermons/'
 $url_home = (gc '_url_homepage.txt') # 'http://www.cottenhambaptist.org.uk'
 $local_sermons_path = '\\hpnas\Disk0\Church\Sermons'
 $path = "season$($season_year).rss"	# also will be used to specify coverart.jpg as  coverart<season_year>.jpg
+# RSS feed channel description
+$description = @"
+<![CDATA[Get comfortable and listen to Kate Lees our minister at a tiny community church. <br/>
+We record most Sundays, but sometimes the equipment beats us, or we are just having more community spirit than we should. Kate and our leadership team do change it up a lot. This podcast will be broken into seasons or years as a separate feed to make it easier to manage. The first season are all local stand-in preachers, but in (fill year here) Kate left her big church in London to serve us, along with her husband Simon and 2 boys.<br/>
+Other seasons: <a href="http://www.cottenhambaptist.org.uk/Sermons/season2019.rss">2020 Sermons</a><br/>
+<a href="http://www.cottenhambaptist.org.uk/Sermons/season2019.rss">2019 Sermons</a><br/>
+<a href="http://www.cottenhambaptist.org.uk/Sermons/season2018.rss">2018 Sermons</a><br/>
+<a href="http://www.cottenhambaptist.org.uk/Sermons/season2017.rss">2017 Sermons</a><br/>
+<a href="http://www.cottenhambaptist.org.uk/Sermons/season2016.rss">2016 Sermons</a><br/>
+<a href="http://www.cottenhambaptist.org.uk/Sermons/season2015.rss">2015 Sermons</a><br/>
+<a href="http://www.cottenhambaptist.org.uk/Sermons/season2014.rss">2014 Sermons</a><br/>
+<a href="http://www.cottenhambaptist.org.uk/Sermons/season2013.rss">2013 Sermons</a><br/>
+]]>
+"@
 
 function createRssElement{
 param(
@@ -39,19 +53,9 @@ param($doc, $root)
 
 	$rssChannel = $doc.CreateNode("element", 'channel', $null)
 	$null = createRssElement $doc -elementName 'title' -value "Cottenham Baptist Church $($season_year) Sermons" -parent $rssChannel
-	$null = createRssElement $doc -elementName 'description' -value @"
-<![CDATA[Get comfortable and listen to Kate Lees our minister at a tiny community church. <br/>
-We record most Sundays, but sometimes the equipment beats us, or we are just having more community spirit than we should. Kate and our leadership team do change it up a lot. This podcast will be broken into seasons or years as a separate feed to make it easier to manage. The first season are all local stand-in preachers, but in (fill year here) Kate left her big church in London to serve us, along with her husband Simon and 2 boys.<br/>
-Other seasons: <a href="http://www.cottenhambaptist.org.uk/Sermons/season2019.rss">2020 Sermons</a><br/>
-<a href="http://www.cottenhambaptist.org.uk/Sermons/season2019.rss">2019 Sermons</a><br/>
-<a href="http://www.cottenhambaptist.org.uk/Sermons/season2018.rss">2018 Sermons</a><br/>
-<a href="http://www.cottenhambaptist.org.uk/Sermons/season2017.rss">2017 Sermons</a><br/>
-<a href="http://www.cottenhambaptist.org.uk/Sermons/season2016.rss">2016 Sermons</a><br/>
-<a href="http://www.cottenhambaptist.org.uk/Sermons/season2015.rss">2015 Sermons</a><br/>
-<a href="http://www.cottenhambaptist.org.uk/Sermons/season2014.rss">2014 Sermons</a><br/>
-<a href="http://www.cottenhambaptist.org.uk/Sermons/season2013.rss">2013 Sermons</a><br/>
-]]>
-"@ -parent $rssChannel
+	$channelfile = "channel_description$($season_year).txt"
+	if (test-path $channelfile) {$description = gc $channelfile ; Write-host "$channelfile loaded OK"}
+	$null = createRssElement $doc -elementName 'description' -value $description -parent $rssChannel
 	$null = createRssElement $doc -elementName 'link' -value $url_home -parent $rssChannel
 	$null = createRssElement $doc -elementName 'language' -value 'en-UK' -parent $rssChannel
 	$null = createRssElement $doc -elementName 'copyright' -value '&#169; Cottenham Baptist Church' -parent $rssChannel
@@ -96,8 +100,7 @@ Function New-Root($doc) {
 
 Function Get-FacebookPosts($savedlinks_path) # '\\hpnas\Disk0\Church\Sermons\fblinks'
 {
-
-	Write-host "Indexing facebook links..."
+	Write-host "Indexing facebook links in $($savedlinks_path) ..."
 	$links = ls $savedlinks_path | select name
 	$linkdates = $links | %{ [Datetime]($_.Name -split '\.')[0]}
 	Write-host ("  checking total {0} posts for matches" -f $linkdates.count)
@@ -187,17 +190,29 @@ param([Alias("document")]$doc,
 }
 
 #########################################################
-# this step takes about 5 minutes
+# this step takes about 5 minutes, if the file does not exist - 
+# Note: to re-index all files, just delete the file, otherwise it will just update with new mp3's
+. .\Get-MP3MetaData.ps1
 if (-not (test-path '_MP3MetaData.xml')) {
 	Write-Host "Gathering mp3 local file Metadata"
-	. .\Get-MP3MetaData.ps1
 	$mp3Files = Get-MP3MetaData $local_sermons_path
 	$mp3Files | Export-cliXml -depth 3 -Path '_MP3MetaData.xml'
 } else {
 	$mp3Files = Import-cliXml -Path '_MP3MetaData.xml'
 }
 Write-Host "Metadata loaded."
+$mp3s_to_index = @(ls $local_sermons_path | ?{$_.name -like '*.mp3' -and -not ( $_.name -in $mp3Files.name)})
+$mp3Files += $mp3s_to_index | %{
+	Write-host "Adding new MP3 tags from $($_.name)" 
+	Get-MP3FileMetaData (Get-ShellApplication $local_sermons_path) $_
+}
+if ($mp3s_to_index.count) {
+	$mp3Files | Export-cliXml -depth 3 -Path '_MP3MetaData.xml'
+	Write-Host "Tags saved OK"
+}
 
+################################################################
+# RSS feed document
 [xml]$Doc = New-Object System.Xml.XmlDocument
 $dec = $Doc.CreateXmlDeclaration("1.0","UTF-8",$null)
 $Doc.AppendChild($dec) | out-null
@@ -205,15 +220,16 @@ $Doc.AppendChild($dec) | out-null
 $root = New-Root($doc)
 	
 $rssChannel = New-Channel $doc $root
-
+# Import Facebook page link text files
+# see get_facebook_links.py for details
 $fblinks = Get-FacebookPosts -localmp3 $local_sermons_path -savedlinks_path (join-path $local_sermons_path 'fblinks')
 
 # add mp3 item files
-$files = $mp3files | ?{$_.name -like "$($season_year)*"}
+$files = @($mp3files | ?{$_.name -like "$($season_year)*"})
 foreach ($item in $files) {
 	Add-EpisodeItem  -document $doc -channel $rssChannel -item $item -facebookPost ($fblinks | where file -eq $item.name)
-	
 }
+
 write-host ("Added {0} episodes" -f $files.count)
 $root.AppendChild($rssChannel) | Out-Null
 $doc.AppendChild($root) | Out-Null

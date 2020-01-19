@@ -7,6 +7,10 @@ Apple rss spec docs
 =========
 https://help.apple.com/itc/podcasts_connect/#/itcb54353390
 
+Notes:
+=========
+https://www.podcastinsights.com/podcast-distribution-guide/
+
 Validate feed using:
 =========
 https://podba.se/validate/
@@ -28,8 +32,8 @@ Feeds
 http://www.cottenhambaptist.org.uk/Sermons/feed.rss  <= My testing only feed
 
 http://www.cottenhambaptist.org.uk/Sermons/season2013.rss  (includes 2012)
-http://www.cottenhambaptist.org.uk/Sermons/season2014.rss
-http://www.cottenhambaptist.org.uk/Sermons/season2015.rss
+http://www.cottenhambaptist.org.uk/Sermons/season2014.rss  (need cover art)
+http://www.cottenhambaptist.org.uk/Sermons/season2015.rss  (need cover art)
 
 http://www.cottenhambaptist.org.uk/Sermons/season2016.rss
 http://www.cottenhambaptist.org.uk/Sermons/season2017.rss

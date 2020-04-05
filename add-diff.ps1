@@ -3,8 +3,8 @@ $sendto = [environment]::getfolderpath("sendto")
 if (-not (test-path (join-path $sendto 'add_diff.cmd'))) {
 	# install the app shortcut now
 @"
-powershell "${scriptPath}\add-diff.ps1" %1
-"@ | out-file (join-path $sendto 'add_diff.cmd')
+powershell "${scriptPath}\add-diff.ps1 ""%1"""
+"@ | out-file (join-path $sendto 'add_diff.cmd') -encoding ascii
 	write-host "Installed a 'SendTo' link in ${sendto}"
 	Read-host "Press any key to continue..."
 }
